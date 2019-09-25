@@ -5,10 +5,28 @@
 }
 
 .navbar{
-  
+  display: flex;
+  text-align: center;
   /* color: white; */
 }
 
 .nav-item{
   font-size: 18pt;
+  margin: 1em;
+  margin-left: 2em;
+}
+
+.project-container{
+  background-color: azure;
+  width: 70%;
+  padding: 3%;
+  margin: 3%;
+  margin-left: 15%;
+  border-radius: 3%;
+  text-align: center;
+}
+
+li{
+  text-align: left;
+  line-height: 1.5em;
 }

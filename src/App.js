@@ -1,5 +1,8 @@
 import React, { Fragment } from 'react';
-import { Route, withRouter } from 'react-router-dom';
+// import { Route, withRouter } from 'react-router-dom';
+import AboutMe from './components/AboutMe';
+import Resume from './components/Resume';
+import Projects from './components/Projects';
 
 import './App.css';
 
@@ -12,14 +15,22 @@ function App() {
         About Me
       </div>
       <div className="nav-item">
-        Resume
+        Experience
       </div>
       <div className="nav-item">
         Projects
       </div>
+      <div className="nav-item">
+        Skills
+      </div>
+      <div className="nav-item">
+        Contact
+      </div>
 
     </div>
-
+    <AboutMe/>
+    <Resume/>
+    <Projects/>
     
     </Fragment>
   );

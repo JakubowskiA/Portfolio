@@ -1,10 +1,10 @@
 import React, { Fragment } from 'react';
 
-function Projects() {
+function AboutMe() {
   return (
     <Fragment>
     <div className="main-container">
-    <h3></h3>
+    <h2>About Me</h2>
     <img src=""/>
     <h4></h4>
     <p></p>
@@ -15,4 +15,4 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default AboutMe;
