@@ -11,9 +11,35 @@
 }
 
 .nav-item{
-  font-size: 18pt;
+  font-size: 16pt;
   margin: 1em;
   margin-left: 2em;
+}
+
+.main-container{
+  height: 75vh;
+}
+
+.main-container-content{
+  margin: 5%;
+  text-align: left;
+}
+
+.about-me-container{
+  background-color: aliceblue;
+  padding-top: 5%;
+  text-align: center;
+}
+
+.about-me-content-container{
+  display: flex;
+}
+
+.about-me-content{
+  width: 45%;
+  margin: 3%;
+  margin-top: 1%;
+  line-height: 1.5em;
 }
 
 .project-container{
@@ -24,6 +50,11 @@
   margin-left: 15%;
   border-radius: 3%;
   text-align: center;
+}
+
+.experience-container{
+  border: 1px;
+  border-radius: 3%;
 }
 
 .contact-section{

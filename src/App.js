@@ -17,10 +17,10 @@ function App() {
         About Me
       </div>
       <div className="nav-item">
-        Experience
+        Projects
       </div>
       <div className="nav-item">
-        Projects
+        Experience
       </div>
       <div className="nav-item">
         Skills
