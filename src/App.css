@@ -26,6 +26,32 @@
   text-align: center;
 }
 
+.contact-section{
+background-color: rgb(2, 28, 77);
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+.contact-icon{
+background-color: blue;
+height: 2em;
+width: 3em;
+border-radius: 3%;
+color: aliceblue;
+margin: 2em;
+margin-left: 3em;
+text-align: center;
+padding-top: 1em
+}
+
+.contact-icon-img{
+  max-height: 3em;
+  width: 3em;
+  color: aliceblue;
+}
+
 li{
   text-align: left;
   line-height: 1.5em;

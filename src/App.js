@@ -3,6 +3,8 @@ import React, { Fragment } from 'react';
 import AboutMe from './components/AboutMe';
 import Resume from './components/Resume';
 import Projects from './components/Projects';
+import Skills from './components/Skills';
+import Contact from './components/Contact';
 
 import './App.css';
 
@@ -29,8 +31,10 @@ function App() {
 
     </div>
     <AboutMe/>
-    <Resume/>
     <Projects/>
+    <Resume/>
+    <Skills/>
+    <Contact/>
     
     </Fragment>
   );
