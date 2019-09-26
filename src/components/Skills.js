@@ -4,9 +4,47 @@ function Skills() {
   return (
     <div>
         <h2>Skills</h2>
+
         <div className="">
-            
+            <div className="skill-container">
+            <h3>HTML</h3>
+            <hr/>
+                <div className="skill-icon-group">
+                    <img src="skill-icon"/>
+                </div>
+            </div>
         </div>
+
+        <div className="">
+            <div className="skill-container">
+            <h3>CSS</h3>
+            <hr/>
+                <div className="skill-icon-group">
+                    <img src="skill-icon"/>
+                </div>
+            </div>
+        </div>
+
+        <div className="">
+            <div className="skill-container">
+            <h3>Frontend</h3>
+            <hr/>
+                <div className="skill-icon-group">
+                    <img src="skill-icon"/>
+                </div>
+            </div>
+        </div>
+
+        <div className="">
+            <div className="skill-container">
+            <h3>Backend</h3>
+            <hr/>
+                <div className="skill-icon-group">
+                    <img src="skill-icon"/>
+                </div>
+            </div>
+        </div>
+
     </div>
   );
 }

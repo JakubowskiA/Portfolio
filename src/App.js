@@ -19,9 +19,9 @@ function App() {
       <div className="nav-item">
         Projects
       </div>
-      <div className="nav-item">
+      {/* <div className="nav-item">
         Experience
-      </div>
+      </div> */}
       <div className="nav-item">
         Skills
       </div>
@@ -32,7 +32,7 @@ function App() {
     </div>
     <AboutMe/>
     <Projects/>
-    <Resume/>
+    {/* <Resume/> */}
     <Skills/>
     <Contact/>
     
