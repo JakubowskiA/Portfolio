@@ -10,7 +10,7 @@ function Skills() {
             <h3>HTML</h3>
             <hr/>
                 <div className="skill-icon-group">
-                    <img src="skill-icon"/>
+                    <img className="skill-icon" src="icons/html5.png"/>
                 </div>
             </div>
         </div>
@@ -20,7 +20,7 @@ function Skills() {
             <h3>CSS</h3>
             <hr/>
                 <div className="skill-icon-group">
-                    <img src="skill-icon"/>
+                    <img className="skill-icon"/>
                 </div>
             </div>
         </div>
@@ -30,7 +30,7 @@ function Skills() {
             <h3>Frontend</h3>
             <hr/>
                 <div className="skill-icon-group">
-                    <img src="skill-icon"/>
+                    <img className="skill-icon"/>
                 </div>
             </div>
         </div>
@@ -40,7 +40,7 @@ function Skills() {
             <h3>Backend</h3>
             <hr/>
                 <div className="skill-icon-group">
-                    <img src="skill-icon"/>
+                    <img className="skill-icon"/>
                 </div>
             </div>
         </div>
