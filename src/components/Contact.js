@@ -12,6 +12,9 @@ function Contact() {
                 <a href="https://medium.com/@arieljakubowski">
                     <div className="contact-icon">M</div>
                 </a>
+                <a href="Resume.pdf">
+                    <div className="contact-icon">R</div>
+                </a>
                 <a href="">
                     <div className="contact-icon">
                         <img className="contact-icon-img" src="https://icon-library.net/images/github-svg-icon/github-svg-icon-3.jpg"/>

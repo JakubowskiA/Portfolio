@@ -1,4 +1,8 @@
 
+.centered{
+  text-align: center;
+}
+
 .header {
   font-size: calc(10px + 2vmin);
   /* color: white; */
@@ -70,9 +74,16 @@
   flex-direction: row;
 }
 
-/* .skill-icon{
+.skill-icon{
+  width: 5em;
+  height: 5em;
+}
 
-} */
+.skill{
+  text-align: center;
+  margin: 1%;
+  margin-left: 7%;
+}
 
 .contact-section{
 background-color: rgb(2, 28, 77);
