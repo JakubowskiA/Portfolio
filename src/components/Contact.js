@@ -15,7 +15,7 @@ function Contact() {
                 <a href="Resume.pdf">
                     <div className="contact-icon">R</div>
                 </a>
-                <a href="">
+                <a href="https://github.com/JakubowskiA">
                     <div className="contact-icon">
                         <img className="contact-icon-img" src="https://icon-library.net/images/github-svg-icon/github-svg-icon-3.jpg"/>
                     </div>

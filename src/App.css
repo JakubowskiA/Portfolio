@@ -100,11 +100,11 @@ padding: 2%;
 }
 
 .contact-icon{
-background-color: blue;
+background-color: rgb(95, 185, 241);
 height: 2em;
 width: 3em;
 border-radius: 3%;
-color: aliceblue;
+color: rgb(0, 0, 0);
 margin: 2em;
 margin-left: 3em;
 text-align: center;
@@ -112,8 +112,8 @@ padding-top: 1em
 }
 
 .contact-icon-img{
-  max-height: 3em;
-  width: 3em;
+  max-height: 1.5em;
+  width: 1.5em;
   color: aliceblue;
 }
 
