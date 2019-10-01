@@ -3,8 +3,27 @@ import React, { Fragment } from 'react';
 function Projects() {
   return (
     <Fragment>
-    <h2>Projects</h2>
-    <div className="project-container">
+
+    <div className="project-page">
+        <h2>Projects</h2>
+        <div className="project-img-group">
+            {/* <div className="project-img"> */}
+                <img src="projectImgs/serene.png" className="project-img"/>
+            {/* </div>
+            <div className="project-img"> */}
+                <img src="projectImgs/readme.png" className="project-img"/>
+            </div>
+            <div className="project-img-group">
+            {/* <div className="project-img"> */}
+                <img src="projectImgs/wordle.png" className="project-img"/>
+            {/* </div>
+            <div className="project-img"> */}
+                <img src="projectImgs/bpf.png" className="project-img"/>
+            {/* </div> */}
+        </div>
+    </div>
+
+    {/* <div className="project-container">
     <h3>SERENE</h3>
     <img src=""/>
     <h4>A GUIDED ONLINE JOURNAL TO HELP YOU EVALUATE AND MANAGE STRESS IN A PRODUCTIVE AND HEALTHY WAY</h4>
@@ -52,7 +71,7 @@ function Projects() {
         <li>Created database schema and configured ActiveRecord associations with Rails and SQLite3</li>
         <li>Designed front end with HTML and custom CSS</li>
     </ul>
-    </div>
+    </div> */}
     
     </Fragment>
   );

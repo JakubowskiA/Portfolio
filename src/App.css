@@ -56,6 +56,18 @@
   text-align: center;
 }
 
+.project-page{
+  background-color: blue;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.project-img{
+  width: 46vw;
+  margin: 2%;
+  height: auto;
+}
+
 .experience-container{
   border: 1px;
   border-radius: 3%;
