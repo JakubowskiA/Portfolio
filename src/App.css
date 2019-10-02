@@ -30,7 +30,7 @@
 }
 
 .about-me-container{
-  background-color: aliceblue;
+  background-color: rgb(67, 189, 241);
   padding-top: 5%;
   text-align: center;
 }
@@ -49,24 +49,79 @@
 .project-container{
   background-color: azure;
   width: 70%;
-  padding: 3%;
-  margin: 3%;
+  padding: 0%;
+  margin: 0%;
   margin-left: 15%;
   border-radius: 3%;
   text-align: center;
 }
 
+/* .project{
+  margin: 1%;
+} */
+
+.project figcaption {
+  position: relative;
+  bottom: 20vw;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+  color: #000;
+  font-size: 0pt;
+}
+
+.project figure:hover{
+  /* opacity: 0.75; */
+  background-color: rgb(132, 0, 255);
+  width: 44vw;
+  height: 21vw;
+  /* position: relative; */
+
+  /* -webkit-transition: all .8s ease;
+  -moz-transition: all .8s ease;
+  transition: all .8s ease; */
+}
+
+.project img:hover {
+  opacity: 0.15;
+  /* background-color: rgb(132, 0, 255); */
+  /* -webkit-transition: all .8s ease;
+  -moz-transition: all .8s ease;
+  transition: all .8s ease; */
+}
+
+.project figure:hover  figcaption{
+  opacity: 1;
+  font-size: 14pt;
+  /* -webkit-transition: all .8s ease;
+  -moz-transition: all .8s ease;
+  transition: all .8s ease; */
+}
+
+.project-img-group{
+  display: flex;
+  flex-direction: row;
+}
+
 .project-page{
-  background-color: blue;
+  background-color:rgba(67, 189, 241, 0.274);
   padding-top: 1%;
-  padding-bottom: 1%;
+  padding-bottom: 2%;
+  text-align: center;
 }
 
 .project-img{
-  width: 46vw;
-  margin: 2%;
-  height: auto;
+  width: 44vw;
+  /* width: 40rem; */
+  /* height: 20rem !important; */
+  margin: 0%;
+  max-height: 22vw !important;
 }
+
+/* .project-img:hover{
+  
+} */
 
 .experience-container{
   border: 1px;

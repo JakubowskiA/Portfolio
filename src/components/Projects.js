@@ -7,19 +7,44 @@ function Projects() {
     <div className="project-page">
         <h2>Projects</h2>
         <div className="project-img-group">
-            {/* <div className="project-img"> */}
+            <div className="project">
+                <figure>
                 <img src="projectImgs/serene.png" className="project-img"/>
-            {/* </div>
-            <div className="project-img"> */}
-                <img src="projectImgs/readme.png" className="project-img"/>
+                <figcaption>
+                    <h1>My hover Overlay</h1>
+                    <a href="#" class="button">Learn More</a>
+                </figcaption>
+                </figure>
             </div>
-            <div className="project-img-group">
-            {/* <div className="project-img"> */}
+            <div className="project">
+            <figure>
+                <img src="projectImgs/readme.png" className="project-img"/>
+                <figcaption>
+                    <h1>My hover Overlay</h1>
+                    <a href="#" class="button">Learn More</a>
+                </figcaption>
+                </figure>
+            </div>
+        </div>
+        <div className="project-img-group">
+            <div className="project">
+            <figure>
                 <img src="projectImgs/wordle.png" className="project-img"/>
-            {/* </div>
-            <div className="project-img"> */}
+                <figcaption>
+                    <h1>My hover Overlay</h1>
+                    <a href="#" class="button">Learn More</a>
+                </figcaption>
+                </figure>
+            </div>
+            <div className="project">
+            <figure>
                 <img src="projectImgs/bpf.png" className="project-img"/>
-            {/* </div> */}
+                <figcaption>
+                    <h1>My hover Overlay</h1>
+                    <a href="#" class="button">Learn More</a>
+                </figcaption>
+                </figure>
+            </div>
         </div>
     </div>
 
