@@ -13,7 +13,7 @@ function Projects() {
                 <figcaption>
                     <h3>SERENE</h3>
                     <h4>A guided online journal to help you evaluate and manage stress in a productive and healthy way</h4>
-                    <h4>Technologies used: </h4>
+                    <h4>Technologies used: Javascript, React, Rails, custom CSS, PostgreSQL, Chart.js, and Moment.js</h4>
                     <a href="#" class="button">Learn More</a>
                 </figcaption>
                 </figure>
@@ -23,7 +23,8 @@ function Projects() {
                 <img src="projectImgs/readme.png" className="project-img"/>
                 <figcaption>
                     <h3>READ ME</h3>
-                    <h4>Find your next read and track your books with Read Me</h4>
+                    <h4>Find your next favorite read and keep track of your books with Read Me</h4>
+                    <h4>Technologies used:  Javascript, React, Rails, custom CSS, JSON Web Tokens, and Semantic UI</h4>
                     <a href="#" class="button">Learn More</a>
                 </figcaption>
             </figure>
@@ -36,6 +37,7 @@ function Projects() {
                 <figcaption>
                     <h3>WORDLE</h3>
                     <h4>A fun word game that lets users test their vocabulary and typing skills</h4>
+                    <h4>Technologies used: Javascript, Rails, custom CSS, Semantic UI, and Particle.js</h4>
                     <a href="#" class="button">Learn More</a>
                 </figcaption>
             </figure>
@@ -46,6 +48,7 @@ function Projects() {
                 <figcaption>
                     <h3>BEST PAW FORWARD</h3>
                     <h4>The easiest way to find training for your pet and manage training sessions</h4>
+                    <h4>Technologies used: Rails, SQLite, custom CSS, HTML, and Bootstrap</h4>
                     <a href="#" class="button">Learn More</a>
                 </figcaption>
                 </figure>
@@ -57,13 +60,14 @@ function Projects() {
     <h3>SERENE</h3>
     <h4>A GUIDED ONLINE JOURNAL TO HELP YOU EVALUATE AND MANAGE STRESS IN A PRODUCTIVE AND HEALTHY WAY</h4>
     <ul>
-        <li>Implemented customizable user interface employing React, custom CSS, Chart.js, Moment.js and Semantic UI</li>
-        <li>Utilized React Router to implement client side routing and allow users to easily and intuitively navigate webpage</li>
-        <li>Created database schema and configured ActiveRecord associations with Rails and Postgres</li>
-        <li>Utilized JSON Web Tokens and localStorage to store encrypted user information client-side</li>
+    <li>Implemented customizable user interface employing React, custom CSS, Chart.js, Moment.js and Semantic UI</li>
+    <li>Utilized React Router to implement client side routing and allow users to easily and intuitively navigate webpage</li>
+    <li>Created database schema and configured ActiveRecord associations with Rails and Postgres</li>
+    <li>Utilized JSON Web Tokens and localStorage to store encrypted user information client-side</li>
     </ul>
     </div>
-
+    
+    Javascript, Rails, custom CSS, JSON Web Tokens, and Semantic UI
     <div className="project-container">
     <h3>READ ME</h3>
     <h4>FIND YOUR NEXT READ AND TRACK YOUR BOOKS WITH READ ME</h4>

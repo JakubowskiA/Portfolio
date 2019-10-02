@@ -60,7 +60,8 @@
   margin: 2%;
 }
 .project :hover{
-  background-color: rgb(132, 0, 255);
+  background-color: #091540f0;
+  color: aliceblue;
 }
 
 figcaption {
@@ -68,9 +69,9 @@ figcaption {
   bottom: 22vw;
   left: 0;
   width: 100%;
-  text-align: center;
+  text-align: left;
   opacity: 0;
-  color: #000;
+  color: aliceblue;
   font-size: 0pt; 
 }
 
@@ -93,19 +94,24 @@ figcaption {
 
 .project figcaption:hover{
   /* opacity: 0.75; */
-  background-color: rgb(132, 0, 255);
-  padding-top: 2vw;
-  padding-bottom: 12vw;
-  
+  background-color: #091540;
+  padding: 2vw;
+  padding-bottom: 5vw;
+  max-width: 40vw;
+  color: aliceblue;
 
   /* -webkit-transition: all .8s ease;
   -moz-transition: all .8s ease;
   transition: all .8s ease; */
 }
 
+.project h4{
+  margin: 1em;
+}
+
 .project img:hover {
   opacity: 0.05;
-  /* background-color: rgb(132, 0, 255); */
+  /* background-color: 091540; */
   /* -webkit-transition: all .8s ease;
   -moz-transition: all .8s ease;
   transition: all .8s ease; */
