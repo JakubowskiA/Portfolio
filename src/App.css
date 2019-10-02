@@ -56,26 +56,34 @@
   text-align: center;
 }
 
-/* .project{
-  margin: 1%;
-} */
+.project{
+  margin: 2%;
+}
+.project :hover{
+  background-color: rgb(132, 0, 255);
+}
 
-.project figcaption {
+figcaption {
   position: relative;
-  bottom: 20vw;
+  bottom: 22vw;
   left: 0;
   width: 100%;
   text-align: center;
   opacity: 0;
   color: #000;
-  font-size: 0pt;
+  font-size: 0pt; 
+}
+
+.project figure {
+  margin: 0;
+      position: relative;
 }
 
 .project figure:hover{
   /* opacity: 0.75; */
-  background-color: rgb(132, 0, 255);
+
   width: 44vw;
-  height: 21vw;
+  height: 22vw;
   /* position: relative; */
 
   /* -webkit-transition: all .8s ease;
@@ -83,8 +91,20 @@
   transition: all .8s ease; */
 }
 
+.project figcaption:hover{
+  /* opacity: 0.75; */
+  background-color: rgb(132, 0, 255);
+  padding-top: 2vw;
+  padding-bottom: 12vw;
+  
+
+  /* -webkit-transition: all .8s ease;
+  -moz-transition: all .8s ease;
+  transition: all .8s ease; */
+}
+
 .project img:hover {
-  opacity: 0.15;
+  opacity: 0.05;
   /* background-color: rgb(132, 0, 255); */
   /* -webkit-transition: all .8s ease;
   -moz-transition: all .8s ease;
@@ -113,9 +133,6 @@
 
 .project-img{
   width: 44vw;
-  /* width: 40rem; */
-  /* height: 20rem !important; */
-  margin: 0%;
   max-height: 22vw !important;
 }
 
