@@ -59,9 +59,11 @@
 .project{
   margin: 2%;
 }
+
 .project :hover{
   background-color: #091540f0;
   color: aliceblue;
+
 }
 
 figcaption {
@@ -73,11 +75,15 @@ figcaption {
   opacity: 0;
   color: aliceblue;
   font-size: 0pt; 
+  max-width: 40vw;
+  padding: 2vw !important;
 }
 
 .project figure {
-  margin: 0;
-      position: relative;
+  margin: 0px;
+  padding: 0px;
+  height: 22vw;
+  position: relative;
 }
 
 .project figure:hover{
@@ -94,9 +100,10 @@ figcaption {
 
 .project figcaption:hover{
   /* opacity: 0.75; */
-  background-color: #091540;
+  background-color: #091540f0;
+  /* background-color: #3b0940; */
   padding: 2vw;
-  padding-bottom: 5vw;
+  padding-bottom: 4.75vw !important;
   max-width: 40vw;
   color: aliceblue;
 
