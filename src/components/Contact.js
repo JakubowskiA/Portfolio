@@ -13,11 +13,19 @@ function Contact() {
                     <div className="contact-icon">M</div>
                 </a>
                 <a href="Resume.pdf">
-                    <div className="contact-icon">R</div>
+                    <div className="contact-icon">
+                        <img className="contact-icon-img" src="https://icon-library.net/images/document-icon-image/document-icon-image-27.jpg"/>
+                    </div>
+                    
                 </a>
                 <a href="https://github.com/JakubowskiA">
                     <div className="contact-icon">
                         <img className="contact-icon-img" src="https://icon-library.net/images/github-svg-icon/github-svg-icon-3.jpg"/>
+                    </div>
+                </a>
+                <a class="mailto" href="mailto:arieljakubowski@gmail.com">
+                    <div className="contact-icon">
+                        <img className="contact-icon-img" src="https://image.flaticon.com/icons/svg/33/33700.svg"/>
                     </div>
                 </a>
             </div>
