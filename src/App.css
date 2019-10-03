@@ -11,6 +11,11 @@
 .navbar{
   display: flex;
   text-align: center;
+  position: fixed;
+  background-color: #091540;
+  width: 100%;
+  color: aliceblue;
+  z-index: 1;
   /* color: white; */
 }
 
@@ -21,7 +26,7 @@
 }
 
 .main-container{
-  height: 75vh;
+  height: 70vh;
 }
 
 .main-container-content{
@@ -152,6 +157,17 @@ figcaption {
 /* .project-img:hover{
   
 } */
+.blog{
+  background-color: aliceblue;
+  width: 24vw;
+  height: auto;
+  padding: 2vw;
+}
+
+.blog-pic{
+  background-color: aliceblue;
+  width: 22vw;
+}
 
 .experience-container{
   border: 1px;

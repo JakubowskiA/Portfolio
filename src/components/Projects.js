@@ -14,7 +14,7 @@ function Projects() {
                     <h3>SERENE</h3>
                     <h4>A guided online journal to help you evaluate and manage stress in a productive and healthy way</h4>
                     <h4>Technologies used: Javascript, React, Rails, custom CSS, PostgreSQL, Chart.js, and Moment.js</h4>
-                    <a href="#" class="button">Learn More</a>
+                    <a href="http://serene-app.herokuapp.com/" class="button">Explore!</a>
                 </figcaption>
                 </figure>
             </div>
@@ -25,7 +25,7 @@ function Projects() {
                     <h3>READ ME</h3>
                     <h4>Find your next favorite read and keep track of your books with Read Me</h4>
                     <h4>Technologies used:  Javascript, React, Rails, custom CSS, JSON Web Tokens, and Semantic UI</h4>
-                    <a href="#" class="button">Learn More</a>
+                    <a href="http://read-me-books.herokuapp.com" class="button">Explore!</a>
                 </figcaption>
             </figure>
             </div>
@@ -38,7 +38,7 @@ function Projects() {
                     <h3>WORDLE</h3>
                     <h4>A fun word game that lets users test their vocabulary and typing skills</h4>
                     <h4>Technologies used: Javascript, Rails, custom CSS, Semantic UI, and Particle.js</h4>
-                    <a href="#" class="button">Learn More</a>
+                    <a href="http://wordle-app-frontend.herokuapp.com" class="button">Explore!</a>
                 </figcaption>
             </figure>
             </div>
@@ -49,7 +49,7 @@ function Projects() {
                     <h3>BEST PAW FORWARD</h3>
                     <h4>The easiest way to find training for your pet and manage training sessions</h4>
                     <h4>Technologies used: Rails, SQLite, custom CSS, HTML, and Bootstrap</h4>
-                    <a href="#" class="button">Learn More</a>
+                    <a href="#" class="button">Explore!</a>
                 </figcaption>
                 </figure>
             </div>

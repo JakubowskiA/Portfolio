@@ -3,6 +3,7 @@ import React, { Fragment } from 'react';
 import AboutMe from './components/AboutMe';
 import Resume from './components/Resume';
 import Projects from './components/Projects';
+import Blog from './components/Blog';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 
@@ -23,6 +24,9 @@ function App() {
         Experience
       </div> */}
       <div className="nav-item">
+        Blog
+      </div>
+      <div className="nav-item">
         Skills
       </div>
       <div className="nav-item">
@@ -33,6 +37,7 @@ function App() {
     <AboutMe/>
     <Projects/>
     {/* <Resume/> */}
+    <Blog />
     <Skills/>
     <Contact/>
     
