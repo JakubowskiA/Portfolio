@@ -158,6 +158,12 @@ figcaption {
 /* .project-img:hover{
   
 } */
+.blog-container{
+  background-color: rgb(67, 189, 241);
+  padding-top: 2%;
+  text-align: center;
+}
+
 .blog{
   background-color: aliceblue;
   width: 26vw;
@@ -217,11 +223,12 @@ padding: 2%;
 .contact-group{
   display: flex;
   flex-direction: row;
+  margin-left: 35rem;
 }
 
 .contact-icon{
 background-color: rgb(95, 185, 241);
-height: 2em;
+height: 3.25em;
 width: 3em;
 border-radius: 3%;
 color: rgb(0, 0, 0);
@@ -240,5 +247,10 @@ padding-top: 1em
 li{
   text-align: left;
   line-height: 1.5em;
+}
+
+h2{
+  font-size: 24pt;
+  margin: 1em;
 }
 
