@@ -213,6 +213,8 @@ figcaption {
   margin-left: 7%;
 }
 
+
+
 .contact-section{
 background-color: rgb(2, 28, 77);
 justify-content: center;
@@ -252,6 +254,25 @@ padding-top: 1em
   padding-bottom: 3%;
 }
 
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+  transform: scale(1.1);
+}
+
+
+
 li{
   text-align: left;
   line-height: 1.5em;
@@ -263,6 +284,6 @@ h2{
 }
 
 p{
-  font-size: 14pt;
+  font-size: 12pt;
   line-height: 1.5em;
 }

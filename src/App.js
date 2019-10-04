@@ -14,22 +14,22 @@ function App() {
     <Fragment>
     <div className="header"></div>
     <div className="navbar">
-      <div className="nav-item">
+      <div className="nav-item hvr-grow">
         About Me
       </div>
-      <div className="nav-item">
+      <div className="nav-item hvr-grow">
         Projects
       </div>
-      {/* <div className="nav-item">
+      {/* <div className="nav-item hvr-grow">
         Experience
       </div> */}
-      <div className="nav-item">
+      <div className="nav-item hvr-grow">
         Blog
       </div>
-      <div className="nav-item">
+      <div className="nav-item hvr-grow">
         Skills
       </div>
-      <div className="nav-item">
+      <div className="nav-item hvr-grow">
         Contact
       </div>
 
