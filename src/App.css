@@ -193,6 +193,8 @@ figcaption {
   border-radius: 1%;
   margin: 3%;
   margin-left: 15%;
+  background-color: azure;
+  align-content: center;
 }
 
 .skill-icon-group{
@@ -223,7 +225,7 @@ padding: 2%;
 .contact-group{
   display: flex;
   flex-direction: row;
-  margin-left: 35rem;
+  margin-left: 27em;
 }
 
 .contact-icon{
@@ -244,6 +246,12 @@ padding-top: 1em
   color: aliceblue;
 }
 
+.brl{
+  background-color:rgba(67, 189, 241, 0.274);
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
 li{
   text-align: left;
   line-height: 1.5em;
@@ -254,3 +262,7 @@ h2{
   margin: 1em;
 }
 
+p{
+  font-size: 14pt;
+  line-height: 1.5em;
+}
