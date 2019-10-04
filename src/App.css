@@ -281,6 +281,12 @@ li{
 h2{
   font-size: 24pt;
   margin: 1em;
+  font-family: 'Noto Sans TC', sans-serif;
+  /* font-family: 'Questrial', sans-serif; */
+  /* font-family: 'Didact Gothic', sans-serif; */
+  /* font-family: 'Poiret One', cursive; */
+  /* font-family: 'Darker Grotesque', sans-serif; */
+  /* font-family: 'Reem Kufi', sans-serif; */
 }
 
 p{
