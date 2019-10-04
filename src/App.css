@@ -108,8 +108,9 @@ figcaption {
   background-color: #091540f0;
   /* background-color: #3b0940; */
   padding: 2vw;
-  padding-bottom: 4.75vw !important;
-  max-width: 40vw;
+  padding-left: 0vw;
+  padding-bottom: 6vw !important;
+  max-width: 44vw;
   color: aliceblue;
 
   /* -webkit-transition: all .8s ease;
@@ -159,14 +160,20 @@ figcaption {
 } */
 .blog{
   background-color: aliceblue;
-  width: 24vw;
+  width: 26vw;
   height: auto;
   padding: 2vw;
+  margin: 3%
 }
 
 .blog-pic{
   background-color: aliceblue;
   width: 22vw;
+}
+
+.blog-content-container{
+  display: flex;
+  flex-direction: row;
 }
 
 .experience-container{
@@ -234,3 +241,4 @@ li{
   text-align: left;
   line-height: 1.5em;
 }
+
