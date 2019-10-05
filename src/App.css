@@ -19,10 +19,17 @@
   /* color: white; */
 }
 
-.nav-item{
-  font-size: 16pt;
+.nav-name{
+  font-size: 18pt;
   margin: 1em;
   margin-left: 2em;
+}
+
+.nav-item{
+  font-size: 14pt;
+  margin: 1em;
+  margin-left: 2em;
+  margin-top: 1.5em;
 }
 
 .main-container{
@@ -37,6 +44,7 @@
 .about-me-container{
   background-color: rgb(67, 189, 241);
   padding-top: 5%;
+  padding-bottom: 2%;
   text-align: center;
 }
 
@@ -63,6 +71,7 @@
 
 .project{
   margin: 2%;
+  margin-bottom: 1%;
 }
 
 .project :hover{
@@ -109,8 +118,8 @@ figcaption {
   /* background-color: #3b0940; */
   padding: 2vw;
   padding-left: 0vw;
-  padding-bottom: 6vw !important;
-  max-width: 44vw;
+  padding-bottom: 5vw !important;
+  max-width: 40vw;
   color: aliceblue;
 
   /* -webkit-transition: all .8s ease;
@@ -145,7 +154,7 @@ figcaption {
 
 .project-page{
   background-color:rgba(67, 189, 241, 0.274);
-  padding-top: 1%;
+  padding-top: 3%;
   padding-bottom: 2%;
   text-align: center;
 }
@@ -159,14 +168,14 @@ figcaption {
   
 } */
 .blog-container{
-  background-color: rgb(67, 189, 241);
-  padding-top: 2%;
+  background-color: #43bdf1;
+  padding-top: 3%;
   text-align: center;
 }
 
 .blog{
   background-color: aliceblue;
-  width: 26vw;
+  max-width: 26vw;
   height: auto;
   padding: 2vw;
   margin: 3%
@@ -227,19 +236,20 @@ padding: 2%;
 .contact-group{
   display: flex;
   flex-direction: row;
-  margin-left: 27em;
+  margin-left: 22%;
 }
 
 .contact-icon{
 background-color: rgb(95, 185, 241);
-height: 3.25em;
-width: 3em;
+height: 2em;
+width: 2.75em;
 border-radius: 3%;
 color: rgb(0, 0, 0);
 margin: 2em;
 margin-left: 3em;
 text-align: center;
-padding-top: 1em
+padding: .5em;
+padding-top: 1.5em !important;
 }
 
 .contact-icon-img{
@@ -292,4 +302,9 @@ h2{
 p{
   font-size: 12pt;
   line-height: 1.5em;
+}
+
+a{
+  color: aliceblue;
+  text-decoration: none
 }

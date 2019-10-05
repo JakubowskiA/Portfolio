@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 
 function Contact() {
   return (
-    <div className="contact-section">
+    <div className="contact-section" id="contact">
         <h2>Contact</h2>
         <div className="contact-group">
             <a href="https://www.linkedin.com/in/ariel-jakubowski/">

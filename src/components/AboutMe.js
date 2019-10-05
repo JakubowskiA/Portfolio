@@ -3,7 +3,7 @@ import React, { Fragment } from 'react';
 function AboutMe() {
   return (
     <Fragment>
-    <div className="about-me-container">
+    <div className="about-me-container" id="about-me">
     <div className="main-container">
             <h2>About Me</h2>
         <div className="main-container-content">

@@ -4,7 +4,7 @@ function Blog() {
     
   return (
     <Fragment>
-    <div className="blog-container">
+    <div className="blog-container" id="blog">
     {/* <div className="main-container"> */}
             <h2>Blog</h2>
             

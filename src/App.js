@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+// import { Link } from "react-router-dom";
 // import { Route, withRouter } from 'react-router-dom';
 import AboutMe from './components/AboutMe';
 import Resume from './components/Resume';
@@ -14,28 +15,31 @@ function App() {
     <Fragment>
     <div className="header"></div>
     <div className="navbar">
-      <div className="nav-item hvr-grow">
-        About Me
+    <div className="nav-name hvr-grow">
+        Ariel Jakubowski
       </div>
       <div className="nav-item hvr-grow">
-        Projects
+        <a href="#about-me">About Me</a>
+      </div>
+      <div className="nav-item hvr-grow">
+        <a href="#projects">Projects</a>
       </div>
       {/* <div className="nav-item hvr-grow">
         Experience
       </div> */}
       <div className="nav-item hvr-grow">
-        Blog
+        <a href="#blog">Blog</a>
       </div>
       <div className="nav-item hvr-grow">
-        Skills
+      <a href="#skills">Skills</a>
       </div>
       <div className="nav-item hvr-grow">
-        Contact
+      <a href="#contact">Contact</a>
       </div>
 
     </div>
-    <AboutMe/>
-    <Projects/>
+    <AboutMe />
+    <Projects />
     {/* <Resume/> */}
     <Blog />
     <Skills/>

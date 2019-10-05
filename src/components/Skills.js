@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 
 function Skills() {
   return (
-    <div className="centered brl">
+    <div className="centered brl" id="skills">
         <h2>Skills</h2>
 
         <div >

@@ -4,7 +4,7 @@ function Projects() {
   return (
     <Fragment>
 
-    <div className="project-page">
+    <div className="project-page" id="projects">
         <h2>Projects</h2>
         <div className="project-img-group">
             <div className="project">
