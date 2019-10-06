@@ -42,6 +42,10 @@ function Skills() {
                         <p>React</p>
                     </div>
                     <div className="skill hvr-grow">
+                        <img className="skill-icon" src="icons/react-router.png"/>
+                        <p>React Router</p>
+                    </div>
+                    <div className="skill hvr-grow">
                         <img className="skill-icon" src="icons/semantic.png"/>
                         <p>Semantic UI</p>
                     </div>
