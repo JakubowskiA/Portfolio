@@ -34,10 +34,12 @@
 
 .main-container{
   height: 70vh;
+  margin: 0%;
 }
 
 .main-container-content{
   margin: 5%;
+  margin-top: 3%;
   text-align: left;
 }
 
@@ -124,9 +126,9 @@ figcaption {
   /* opacity: 0.75; */
   background-color: #091540f0;
   /* background-color: #3b0940; */
-  padding: 2vw;
+  padding: 4vw;
   padding-left: 0vw;
-  padding-bottom: 5vw !important;
+  height: 18vw;
   max-width: 40vw;
   color: aliceblue;
 
@@ -172,9 +174,18 @@ figcaption {
   max-height: 22vw !important;
 }
 
-/* .project-img:hover{
-  
-} */
+.button{
+/* background-color: gainsboro;
+color: #091540; */
+font-size: 12pt;
+/* pad: .25em;
+border-radius: 3%;
+border: solid; */
+cursor: pointer;
+}
+
+
+
 .blog-container{
   background-color: #43bdf1;
   padding-top: 3%;
@@ -219,19 +230,19 @@ figcaption {
 .skill-icon-group{
   display: flex;
   flex-direction: row;
+  align-content: center;
 }
 
 .skill-icon{
-  width: 5em;
-  height: 5em;
+  width: 4em;
+  height: 4em;
 }
 
 .skill{
   text-align: center;
   margin: 1%;
-  margin-left: 7%;
+  margin-left: 10%;
 }
-
 
 
 .contact-section{
@@ -262,11 +273,13 @@ padding: .5em;
 padding-top: 1.5em !important;
 }
 
+
 .contact-icon-img{
   max-height: 1.25em;
   width: 1.25em;
   color: aliceblue;
 }
+
 
 .brl{
   background-color:rgba(67, 189, 241, 0.274);
@@ -294,7 +307,7 @@ padding-top: 1.5em !important;
 }
 
 .hvr-grow:hover,
-.hvr-grow:focus,
+/* .hvr-grow:focus, */
 .hvr-grow:active {
   transform: scale(1.1);
 }
@@ -307,18 +320,27 @@ li{
 }
 
 h2{
-  font-size: 24pt;
+  font-size: 28pt;
   margin: 1em;
+  margin-bottom: .5em;
+  font-family: 'Questrial', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-family: 'Noto Sans TC', sans-serif;
-  /* font-family: 'Questrial', sans-serif; */
-  /* font-family: 'Didact Gothic', sans-serif; */
-  /* font-family: 'Poiret One', cursive; */
-  /* font-family: 'Darker Grotesque', sans-serif; */
-  /* font-family: 'Reem Kufi', sans-serif; */
+  font-weight: 400;
+}
+
+h3{
+  font-family: 'Noto Sans TC', sans-serif;
+  font-weight: 400;
 }
 
 h4{
-  font-size: 14pt;
+  font-size: 16pt;
+  margin: 0em;
+  font-family: 'Questrial', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-weight: 400;
 }
 
 p{
