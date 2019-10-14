@@ -8,9 +8,6 @@ function Blog() {
     {/* <div className="main-container"> */}
             <h2>Blog</h2>
             
-            
-
-
         {/* <div className="main-container-content"> */}
             <div className="blog-content-container">
                 <div className="blog">
@@ -51,6 +48,7 @@ function Blog() {
                     <a href="https://medium.com/@arieljakubowski/clearing-up-the-cloud-9f8aacc609b5"><button>See blog post</button></a>
                 </div>
             </div>
+            <br/><br/>
         </div>
 
         
