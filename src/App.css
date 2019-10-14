@@ -13,7 +13,7 @@
   text-align: center;
   position: fixed;
   background-color: #091540;
-  width: 100%;
+  width: 100vw;
   color: aliceblue;
   z-index: 1;
   /* color: white; */
@@ -35,6 +35,7 @@
 .main-container{
   height: 70vh;
   margin: 0%;
+  width: 100% !important;
 }
 
 .main-container-content{
@@ -359,4 +360,19 @@ a{
 
 button{
   cursor: pointer;
+}
+
+@media(max-width:700px){
+  .nav-name{
+    font-size: 9pt;
+    margin: 1em;
+    /* margin-left: 2em; */
+  }
+  
+  .nav-item{
+    font-size: 8pt;
+    margin: .5em;
+    /* margin-left: 2em; */
+    margin-top: 1.25em;
+  }
 }
