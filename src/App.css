@@ -348,6 +348,10 @@ p{
   line-height: 1.5em;
 }
 
+.publisher{
+  font-size: 11pt;
+}
+
 a{
   color: aliceblue;
   text-decoration: none

@@ -17,21 +17,21 @@ function Blog() {
                     <img className="blog-pic" src="https://miro.medium.com/max/800/1*9mhBwpoDiQSrmskvTtdsrg.jpeg"/>
                     <hr/>
                     <p>Breaking Down Object-Oriented Ruby</p>
-                    <p>Published by Better Programming</p>
+                    <p className="publisher">Published by Better Programming</p>
                     <a href="https://medium.com/better-programming/breaking-down-object-oriented-ruby-cb0a79e55a70"><button>See blog post</button></a>
                 </div>
                 <div className="blog">
                     <img className="blog-pic" src ="https://miro.medium.com/max/700/1*32oIf2aGTs9U_oA21P5NdQ.png"/>
                     <hr/>
                     <p>The universality of empathetic design</p>
-                    <p>Published by UX Collective</p>
+                    <p className="publisher">Published by UX Collective</p>
                     <a href="https://uxdesign.cc/the-universality-of-empathetic-design-bb6b562001c5"><button>See blog post</button></a>
                 </div>
                 <div className="blog">
                     <img className="blog-pic" src ="https://miro.medium.com/max/569/1*rGHEUeykJASszC9HgxsPxA.jpeg"/>
                     <hr/>
                     <p>Visual storytelling and UX design</p>
-                    <p>Published by UX Collective</p>
+                    <p className="publisher">Published by UX Collective</p>
                     <a href="https://uxdesign.cc/visual-storytelling-and-ux-design-eebd394524d3"><button>See blog post</button></a>
                 </div>
             </div>
@@ -40,14 +40,14 @@ function Blog() {
                     <img className="blog-pic" src ="https://miro.medium.com/max/1000/1*Fuy7_WQaJKBsGb-MSRu17Q.png"/>
                     <hr/>
                     <p>An Introduction to Machine Learning</p>
-                    <p>Published by Better Programming</p>
+                    <p className="publisher">Published by Better Programming</p>
                     <a href="https://medium.com/better-programming/an-introduction-to-machine-learning-a4a6506c4bc7"><button>See blog post</button></a>
                 </div>
                 <div className="blog">
                     <img className="blog-pic" src ="https://miro.medium.com/max/591/1*HoDhjtqIPFPCZUwrEl_WUA.png"/>
                     <hr/>
                     <p>Clearing Up the Cloud</p>
-                    <p>Published independently </p>
+                    <p className="publisher">Published independently </p>
                     <a href="https://medium.com/@arieljakubowski/clearing-up-the-cloud-9f8aacc609b5"><button>See blog post</button></a>
                 </div>
             </div>
