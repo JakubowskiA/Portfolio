@@ -14,7 +14,7 @@ function Projects() {
                     <h3>SERENE</h3>
                     <p>A guided online journal to help you evaluate and manage stress in a productive and healthy way</p>
                     <p>Technologies used: Javascript, React, Rails, custom CSS, PostgreSQL, Chart.js, and Moment.js</p>
-                    <a href="http://serene-app.herokuapp.com/" class="button">  
+                    <a target="_blank" href="http://serene-app.herokuapp.com/" className="button">  
                         <button>Explore!</button>
                     </a>
                 </figcaption>
@@ -27,7 +27,7 @@ function Projects() {
                     <h3>READ ME</h3>
                     <p>Find your next favorite read and keep track of your books with Read Me</p>
                     <p>Technologies used:  Javascript, React, Rails, custom CSS, JSON Web Tokens, and Semantic UI</p>
-                    <a href="http://read-me-books.herokuapp.com" class="button">
+                    <a target="_blank" href="http://read-me-books.herokuapp.com" className="button">
                         <button>Explore!</button>
                     </a>
                 </figcaption>
@@ -42,7 +42,7 @@ function Projects() {
                     <h3>WORDLE</h3>
                     <p>A fun word game that lets users test their vocabulary and typing skills</p>
                     <p>Technologies used: Javascript, Rails, custom CSS, Semantic UI, and Particle.js</p>
-                    <a href="http://wordle-app-frontend.herokuapp.com" class="button">
+                    <a href="http://wordle-app-frontend.herokuapp.com" target="_blank" className="button">
                         <button>Explore!</button>
                     </a>
                 </figcaption>
@@ -55,7 +55,7 @@ function Projects() {
                     <h3>BEST PAW FORWARD</h3>
                     <p>The easiest way to find training for your pet and manage training sessions</p>
                     <p>Technologies used: Rails, SQLite, custom CSS, HTML, and Bootstrap</p>
-                    <a href="#" class="button">
+                    <a target="_blank" href="#" className="button">
                         <button>Explore!</button>
                     </a>
                 </figcaption>

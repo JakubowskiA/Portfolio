@@ -4,10 +4,14 @@ function Contact() {
   return (
     <div className="contact-section" id="contact">
         <h2>Contact</h2>
+        
         <div className="contact-group">
+            <div className="contact">
             <a href="https://www.linkedin.com/in/ariel-jakubowski/">
                 <div className="contact-icon hvr-grow">in</div>
             </a>
+            <div>Test</div>
+            </div>
             <a href="https://medium.com/@arieljakubowski">
                 <div className="contact-icon hvr-grow">M</div>
             </a>
@@ -21,7 +25,7 @@ function Contact() {
                     <img className="contact-icon-img" src="https://icon-library.net/images/github-svg-icon/github-svg-icon-3.jpg"/>
                 </div>
             </a>
-            <a class="mailto" href="mailto:arieljakubowski@gmail.com">
+            <a className="mailto" href="mailto:arieljakubowski@gmail.com">
                 <div className="contact-icon hvr-grow">
                     <img className="contact-icon-img" src="https://image.flaticon.com/icons/svg/33/33700.svg"/>
                 </div>

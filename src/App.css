@@ -28,7 +28,7 @@
 .nav-item{
   font-size: 14pt;
   margin: 1em;
-  margin-left: 2em;
+  margin-left: 2.5em;
   margin-top: 1.5em;
 }
 
@@ -90,7 +90,6 @@
 .project :hover{
   background-color: #091540f0;
   color: aliceblue;
-
 }
 
 figcaption {
@@ -201,7 +200,8 @@ cursor: pointer;
   height: auto;
   padding: 2vw;
   margin: 3%;
-  margin-top: 1%
+  margin-top: 1%;
+  border-radius: 2%;
 }
 
 .blog-pic{
@@ -260,7 +260,7 @@ padding: 2%;
 .contact-group{
   display: flex;
   flex-direction: row;
-  margin-left: 22%;
+  margin-left: 25%;
 }
 
 .contact-icon{
@@ -282,6 +282,18 @@ padding-top: 1.5vw !important;
   width: 1.25vw;
   color: aliceblue;
 }
+
+.contact + div {
+  display: none;
+}
+  
+a:hover + div {
+  display: block;
+}
+
+
+
+
 
 
 .brl{
