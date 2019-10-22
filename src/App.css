@@ -282,7 +282,7 @@ padding-top: 1.5vw !important;
   color: aliceblue;
 }
 
-.contact-icon:hover{
+.contact-div:hover .contact-icon{
   width: 4.5vw;
 }
 
