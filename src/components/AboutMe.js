@@ -17,8 +17,8 @@ function AboutMe() {
                 </div>
                 <div className="about-me-content">
                 <h4>How I work</h4>
-                <p>I believe the first step in solving a problem or fulfilling a need is understanding. The better and more thoroughly we understand a problem, what people need and want from a solution, and all of the ways a solution could impact people, the better the solution will be. This is why empathy is such an important part of the way I approach creating programs and solutions for users. </p>
-                <p>I also think it is important to always keep in mind that everyone looks at everything with their own unique perspective. Because of this, I love to work in an open and collaborative way with people who have different backgrounds, experiences, and perspectives. This is an important piece of meeting users needs and giving them the best experiences possible.</p>
+                <p>I believe the first step in solving a problem or fulfilling a need is understanding. The better and more thoroughly we understand a problem, what people need and want from a solution, and how a solution could impact people, the better the solution will be. This is why empathy is such an important part of the way I approach programming and design. </p>
+                <p>I think it is important to always keep in mind that everyone looks at everything with their own unique perspective. Because of this, I love to work in an open and collaborative way with people who have different backgrounds, experiences, and perspectives. This is an important piece of meeting users needs and giving them the best experiences possible.</p>
                 </div>
             </div>
         </div>

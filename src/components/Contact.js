@@ -6,20 +6,26 @@ function Contact() {
         <h2>Contact</h2>
         
         <div className="contact-group">
-            <div className="contact">
-            <a href="https://www.linkedin.com/in/ariel-jakubowski/">
-                <div className="contact-icon hvr-grow">in</div>
-            </a>
-            <div>Test</div>
+            <div className="contact contact-div">
+                <a href="https://www.linkedin.com/in/ariel-jakubowski/">
+                    <div className="contact-icon hvr-grow hvr-hide">in</div>
+                    <div className="contact-icon hvr-show">LinkedIn</div>
+                </a>
             </div>
+            <div className="contact contact-div">
             <a href="https://medium.com/@arieljakubowski">
-                <div className="contact-icon hvr-grow">M</div>
+                <div className="contact-icon hvr-grow hvr-hide">M</div>
+                <div className="contact-icon hvr-show">Blog</div>
             </a>
+            </div>
+            <div className="contact contact-div">
             <a href="Resume.pdf">
-                <div className="contact-icon hvr-grow">
+                <div className="contact-icon hvr-grow hvr-hide">
                     <img className="contact-icon-img" src="https://icon-library.net/images/document-icon-image/document-icon-image-27.jpg"/>
-                </div>           
+                </div>
+                <div className="contact-icon hvr-show">Resume</div>           
             </a>
+            </div>
             <a href="https://github.com/JakubowskiA">
                 <div className="contact-icon hvr-grow">
                     <img className="contact-icon-img" src="https://icon-library.net/images/github-svg-icon/github-svg-icon-3.jpg"/>

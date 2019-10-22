@@ -276,19 +276,48 @@ padding: .5vw;
 padding-top: 1.5vw !important;
 }
 
-
 .contact-icon-img{
   max-height: 1.25vw;
   width: 1.25vw;
   color: aliceblue;
 }
 
-.contact + div {
+.contact-icon:hover{
+  width: 4.5vw;
+}
+
+
+
+.hvr-show{
+  display: none
+}
+.contact-div:hover div.hvr-hide{
+  display: none
+}
+.contact-div:hover div.hvr-show{
+  display: block
+}
+/* .linkedin:hover::after{
+  content: LinkedIn
+}
+
+.contact:hover >.contact-icon{
   display: none;
 }
+.contact + div {
+  display: none;
+} */
   
-a:hover + div {
+/* a:hover + div {
   display: block;
+} */
+
+/* .hvr-show{
+
+} */
+
+.hvr-hide {
+  display: none
 }
 
 

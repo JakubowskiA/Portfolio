@@ -47,6 +47,13 @@ function Blog() {
                     <p className="publisher">Published independently </p>
                     <a href="https://medium.com/@arieljakubowski/clearing-up-the-cloud-9f8aacc609b5"><button>See blog post</button></a>
                 </div>
+                <div className="blog">
+                    <img className="blog-pic" src ="https://cdn.lynda.com/course/504266/504266-636924000532723800-16x9.jpg"/>
+                    <hr/>
+                    <p>A Quick Guide to CSS</p>
+                    <p className="publisher">Published independently </p>
+                    <a href="https://medium.com/@arieljakubowski/a-quick-guide-to-css-df5de9f9a178"><button>See blog post</button></a>
+                </div>
             </div>
             <br/><br/>
         </div>
