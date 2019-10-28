@@ -15,7 +15,7 @@ function App() {
     <Fragment>
     <div className="header"></div>
     <div className="navbar">
-    <div className="nav-name hvr-grow">
+    <div className="nav-name">
         Ariel Jakubowski
       </div>
       <div className="nav-item hvr-grow">

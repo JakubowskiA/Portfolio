@@ -165,7 +165,7 @@ figcaption {
 }
 
 .project-page{
-  background-color:rgba(67, 189, 241, 0.274);
+  background-color:#41bcf046;
   padding-top: 3%;
   padding-bottom: 2%;
   text-align: center;
@@ -254,7 +254,7 @@ justify-content: center;
 align-items: center;
 text-align: center;
 color: aliceblue;
-padding: 2%;
+padding: 1%;
 }
 
 .contact-group{
