@@ -65,6 +65,10 @@ function Skills() {
                         <p>Rails</p>
                     </div>
                     <div className="skill hvr-grow">
+                        <img className="skill-icon" src="icons/php.png"/>
+                        <p>PHP</p>
+                    </div>
+                    <div className="skill hvr-grow">
                         <img className="skill-icon" src="icons/postgresql.png"/>
                         <p>PostgreSQL</p>
                     </div>
