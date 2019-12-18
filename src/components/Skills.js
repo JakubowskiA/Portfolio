@@ -69,12 +69,8 @@ function Skills() {
                         <p>PHP</p>
                     </div>
                     <div className="skill hvr-grow">
-                        <img className="skill-icon" src="icons/postgresql.png"/>
-                        <p>PostgreSQL</p>
-                    </div>
-                    <div className="skill hvr-grow">
-                        <img className="skill-icon" src="icons/sqlite.png"/>
-                        <p>SQLite</p>
+                        <img className="skill-icon" src="icons/java.png"/>
+                        <p>Java</p>
                     </div>
                 </div>
             </div>
@@ -86,6 +82,14 @@ function Skills() {
                     <div className="skill hvr-grow">
                         <img className="skill-icon" src="icons/github.png"/>
                         <p>Git</p>
+                    </div>
+                    <div className="skill hvr-grow">
+                        <img className="skill-icon" src="icons/postgresql.png"/>
+                        <p>PostgreSQL</p>
+                    </div>
+                    <div className="skill hvr-grow">
+                        <img className="skill-icon" src="icons/sqlite.png"/>
+                        <p>SQLite</p>
                     </div>
                     <div className="skill hvr-grow">
                         <img className="skill-icon" src="icons/heroku.png"/>
