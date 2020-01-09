@@ -12,19 +12,19 @@ function Skills() {
                 <div className="skill-icon-group">
                     <div className="skill hvr-grow">
                         <img className="skill-icon" src="icons/html5.png"/>
-                        <p>HTML5</p>
+                        <p className="p-skill">HTML5</p>
                     </div>
                     <div className="skill hvr-grow">
                         <img className="skill-icon" src="icons/jsx.png"/>
-                        <p>JSX</p>
+                        <p className="p-skill">JSX</p>
                     </div>
                     <div className="skill hvr-grow">
                         <img className="skill-icon" src="icons/css3.png"/>
-                        <p>CSS3</p>
+                        <p className="p-skill">CSS3</p>
                     </div>
                     <div className="skill hvr-grow">
                         <img className="skill-icon" src="icons/bootstrap.png"/>
-                        <p>Bootstrap</p>
+                        <p className="p-skill">Bootstrap</p>
                     </div>
                 </div>
             </div>
@@ -35,19 +35,19 @@ function Skills() {
             <div className="skill-icon-group">
                     <div className="skill hvr-grow">
                         <img className="skill-icon" src="icons/javascript.png"/>
-                        <p>JavaScript</p>
+                        <p className="p-skill">JavaScript</p>
                     </div>
                     <div className="skill hvr-grow">
                         <img className="skill-icon" src="icons/react.png"/>
-                        <p>React</p>
+                        <p className="p-skill">React</p>
                     </div>
                     <div className="skill hvr-grow">
                         <img className="skill-icon" src="icons/react-router.png"/>
-                        <p>React Router</p>
+                        <p className="p-skill">React Router</p>
                     </div>
                     <div className="skill hvr-grow">
                         <img className="skill-icon" src="icons/semantic.png"/>
-                        <p>Semantic UI</p>
+                        <p className="p-skill">Semantic UI</p>
                     </div>
                 </div>
             </div>
@@ -58,19 +58,19 @@ function Skills() {
             <div className="skill-icon-group">
                     <div className="skill hvr-grow">
                         <img className="skill-icon" src="icons/ruby.png"/>
-                        <p>Ruby</p>
+                        <p className="p-skill">Ruby</p>
                     </div>
                     <div className="skill hvr-grow">
                         <img className="skill-icon" src="icons/rails.png"/>
-                        <p>Rails</p>
+                        <p className="p-skill">Rails</p>
                     </div>
                     <div className="skill hvr-grow">
                         <img className="skill-icon" src="icons/php.png"/>
-                        <p>PHP</p>
+                        <p className="p-skill">PHP</p>
                     </div>
                     <div className="skill hvr-grow">
                         <img className="skill-icon" src="icons/java.png"/>
-                        <p>Java</p>
+                        <p className="p-skill">Java</p>
                     </div>
                 </div>
             </div>
@@ -81,23 +81,23 @@ function Skills() {
             <div className="skill-icon-group">
                     <div className="skill hvr-grow">
                         <img className="skill-icon" src="icons/github.png"/>
-                        <p>Git</p>
+                        <p className="p-skill">Git</p>
                     </div>
                     <div className="skill hvr-grow">
                         <img className="skill-icon" src="icons/postgresql.png"/>
-                        <p>PostgreSQL</p>
+                        <p className="p-skill">PostgreSQL</p>
                     </div>
                     <div className="skill hvr-grow">
                         <img className="skill-icon" src="icons/sqlite.png"/>
-                        <p>SQLite</p>
+                        <p className="p-skill">SQLite</p>
                     </div>
                     <div className="skill hvr-grow">
                         <img className="skill-icon" src="icons/heroku.png"/>
-                        <p>Heroku</p>
+                        <p className="p-skill">Heroku</p>
                     </div>
                     {/* <div className="skill hvr-grow">
                         <img className="skill-icon" src="icons/semantic.png"/>
-                        <p>Semantic UI</p>
+                        <p className="p-skill">Semantic UI</p>
                     </div> */}
                 </div>
             </div>

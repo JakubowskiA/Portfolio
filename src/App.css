@@ -444,6 +444,10 @@ button{
       font-size: 6pt;
     }
 
+    .p-skill{
+      font-size: 6pt;
+    }
+
     h2{
       font-size: 14pt;
     }
@@ -458,5 +462,11 @@ button{
 
     p{
       font-size: 7pt;
+    }
+
+    button{
+      cursor: pointer;
+      font-size: 7pt;
+      border: #091540;
     }
 }
