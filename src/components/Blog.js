@@ -54,6 +54,7 @@ function Blog() {
                     <p className="publisher">Published independently </p>
                     <a href="https://medium.com/@arieljakubowski/a-quick-guide-to-css-df5de9f9a178"><button>See blog post</button></a>
                 </div>
+            </div>
             <div className="blog-content-container">
                 <div className="blog">
                     <img className="blog-pic" src ="https://miro.medium.com/max/980/1*dgEOd9EmJ-wvmjhZ7fTFNw.png"/>
@@ -78,9 +79,7 @@ function Blog() {
                 </div> */}
             </div>
             <br/><br/>
-        </div>
-
-        
+        </div>   
     {/* </div> */}
     {/* </div> */}
     </Fragment>
