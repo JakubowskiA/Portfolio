@@ -207,6 +207,8 @@ cursor: pointer;
 .blog-pic{
   background-color: aliceblue;
   width: 22vw;
+  min-height: 12.5vw;
+  max-height: 15vw;
 }
 
 .blog-content-container{
