@@ -74,18 +74,18 @@ function Blog() {
                     <img className="blog-pic" src ="https://miro.medium.com/max/676/1*H6AJcRKWwzS_-c-zRaR0bQ.jpeg"/>
                     <hr/>
                     <p>An Introduction to Java</p>
-                    <p className="publisher">Published independently </p>
+                    <p className="publisher">Published in The Startup </p>
                     <a href="https://medium.com/@arieljakubowski/an-introduction-to-java-ad0c6821e52b">
                     <button>See blog post</button></a>
                 </div>
-                {/* <div className="blog">
-                    <img className="blog-pic" src ="https://cdn.lynda.com/course/504266/504266-636924000532723800-16x9.jpg"/>
+                <div className="blog">
+                    <img className="blog-pic" src ="https://miro.medium.com/max/667/1*-N5kYio2f3UJs0-HfpIkiw.jpeg"/>
                     <hr/>
-                    <p>A Quick Guide to CSS</p>
-                    <p className="publisher">Published independently </p>
-                    <a href="https://medium.com/@arieljakubowski/a-quick-guide-to-css-df5de9f9a178">
+                    <p>Java Classes and Objects</p>
+                    <p className="publisher">Published in Level Up Coding </p>
+                    <a href="https://levelup.gitconnected.com/java-classes-and-objects-a312db4bc785">
                 <button>See blog post</button></a>
-                </div> */}
+                </div>
             </div>
             <br/><br/>
         </div>   
