@@ -4,31 +4,6 @@ function Skills() {
   return (
     <div className="centered brl" id="skills">
         <h2>Skills</h2>
-
-        <div >
-            <div className="skill-container">
-            <h3> HTML and CSS</h3>
-            <hr/>
-                <div className="skill-icon-group">
-                    <div className="skill hvr-grow">
-                        <img className="skill-icon" src="icons/html5.png"/>
-                        <p className="p-skill">HTML5</p>
-                    </div>
-                    <div className="skill hvr-grow">
-                        <img className="skill-icon" src="icons/jsx.png"/>
-                        <p className="p-skill">JSX</p>
-                    </div>
-                    <div className="skill hvr-grow">
-                        <img className="skill-icon" src="icons/css3.png"/>
-                        <p className="p-skill">CSS3</p>
-                    </div>
-                    <div className="skill hvr-grow">
-                        <img className="skill-icon" src="icons/bootstrap.png"/>
-                        <p className="p-skill">Bootstrap</p>
-                    </div>
-                </div>
-            </div>
-        
             <div className="skill-container">
             <h3>Frontend</h3>
             <hr/>
@@ -71,6 +46,30 @@ function Skills() {
                     <div className="skill hvr-grow">
                         <img className="skill-icon" src="icons/java.png"/>
                         <p className="p-skill">Java</p>
+                    </div>
+                </div>
+            </div>
+
+            <div >
+            <div className="skill-container">
+            <h3> HTML and CSS</h3>
+            <hr/>
+                <div className="skill-icon-group">
+                    <div className="skill hvr-grow">
+                        <img className="skill-icon" src="icons/html5.png"/>
+                        <p className="p-skill">HTML5</p>
+                    </div>
+                    <div className="skill hvr-grow">
+                        <img className="skill-icon" src="icons/jsx.png"/>
+                        <p className="p-skill">JSX</p>
+                    </div>
+                    <div className="skill hvr-grow">
+                        <img className="skill-icon" src="icons/css3.png"/>
+                        <p className="p-skill">CSS3</p>
+                    </div>
+                    <div className="skill hvr-grow">
+                        <img className="skill-icon" src="icons/bootstrap.png"/>
+                        <p className="p-skill">Bootstrap</p>
                     </div>
                 </div>
             </div>
