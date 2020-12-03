@@ -78,6 +78,10 @@ function Skills() {
             <h3>Other</h3>
             <hr/>
             <div className="skill-icon-group">
+            <div className="skill hvr-grow">
+                        <img className="skill-icon" src="icons/graphql.png"/>
+                        <p className="p-skill">GraphQL</p>
+                    </div>
                     <div className="skill hvr-grow">
                         <img className="skill-icon" src="icons/github.png"/>
                         <p className="p-skill">Git</p>
@@ -94,10 +98,6 @@ function Skills() {
                         <img className="skill-icon" src="icons/heroku.png"/>
                         <p className="p-skill">Heroku</p>
                     </div>
-                    {/* <div className="skill hvr-grow">
-                        <img className="skill-icon" src="icons/semantic.png"/>
-                        <p className="p-skill">Semantic UI</p>
-                    </div> */}
                 </div>
             </div>
         </div>
