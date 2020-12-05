@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
-import {BlogPostCard} from 'BlogPostCard';
-import {blogPostsData} from 'BlogPostsData'
+import {BlogPostCard} from './BlogPostCard.js';
+import {blogPostsData} from './BlogPostsData.js'
 
 function Blog() {
     console.log(blogPostsData);
@@ -9,8 +9,16 @@ function Blog() {
     <div className="blog-container" id="blog">
     {/* <div className="main-container"> */}
             <h2>Blog</h2>
-            <BlogPostCard/>
         {/* <div className="main-container-content"> */}
+        {blogPostsData.map(post => 
+            <BlogPostCard
+            key={blogPostsData.indexOf(post)}
+            image={post.image}
+            link={post.link}
+            title={post.title}
+            publisher={post.publisher}
+            />
+            )}
             <div className="blog-content-container">
                 <div className="blog">
                     <img className="blog-pic" src="https://miro.medium.com/max/800/1*9mhBwpoDiQSrmskvTtdsrg.jpeg"/>
