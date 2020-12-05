@@ -196,24 +196,24 @@ cursor: pointer;
 
 .blog{
   background-color: aliceblue;
-  max-width: 26vw;
+  width: 16vw;
   height: auto;
-  padding: 2vw;
-  margin: 3%;
+  padding: 2%;
+  margin: 2%;
   margin-top: 1%;
   border-radius: 2%;
 }
 
 .blog-pic{
   background-color: aliceblue;
-  width: 22vw;
-  min-height: 12.5vw;
-  max-height: 15vw;
+  width: 16vw;
+  min-height: 8vw;
+  max-height: 11vw;
 }
 
 .blog-content-container{
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   margin-left: 3%
 }
 
