@@ -1,13 +1,15 @@
 import React, { Fragment } from 'react';
+import {BlogPostCard} from 'BlogPostCard';
+import {blogPostsData} from 'BlogPostsData'
 
 function Blog() {
-    
+    console.log(blogPostsData);
   return (
     <Fragment>
     <div className="blog-container" id="blog">
     {/* <div className="main-container"> */}
             <h2>Blog</h2>
-            
+            <BlogPostCard/>
         {/* <div className="main-container-content"> */}
             <div className="blog-content-container">
                 <div className="blog">
