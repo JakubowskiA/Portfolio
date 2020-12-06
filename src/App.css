@@ -420,6 +420,24 @@ button{
     margin-top: 1.25em;
   }
 
+  .blog{
+    background-color: aliceblue;
+    width: 23.5vw;
+    height: auto;
+    padding: 2%;
+    margin: 2%;
+    margin-top: 1%;
+    border-radius: 2%;
+    font-size: 11pt;
+  }
+  
+  .blog-pic{
+    background-color: aliceblue;
+    width: 22vw;
+    min-height: 12.5vw;
+    max-height: 15vw;
+  }
+
   .contact-icon{
     height: 3vw;
     width: 3.75vw;
@@ -452,7 +470,7 @@ button{
     }
 
     h3{
-      font-size: 10pt;
+      font-size: 9pt;
     }
 
     h4{
