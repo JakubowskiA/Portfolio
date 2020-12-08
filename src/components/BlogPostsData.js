@@ -6,12 +6,30 @@ export const blogPostsData = [
     link:
       "https://medium.com/better-programming/breaking-down-object-oriented-ruby-cb0a79e55a70",
   },
+    {
+    image: "https://miro.medium.com/max/700/0*M7CBNp4RBJRaZpJw.jpg",
+    title: "An Introduction to SQL",
+    publisher: "Published by The Startup",
+    link: "https://medium.com/swlh/an-introduction-to-sql-ee45ee6f4ffc",
+  },
   {
     image: "https://miro.medium.com/max/700/1*32oIf2aGTs9U_oA21P5NdQ.png",
     title: "The Universality of Empathetic Design",
     publisher: "Published by UX Collective",
     link:
       "https://uxdesign.cc/the-universality-of-empathetic-design-bb6b562001c5",
+  },
+    {
+    image: "https://miro.medium.com/max/700/1*oMha2rEoc4bbefw8KlDGbw.png",
+    title: "An Introduction to PHP",
+    publisher: "Published by Git Connected",
+    link: "https://levelup.gitconnected.com/an-introduction-to-php-974101ed42d3",
+  },
+    {
+    image: "https://miro.medium.com/max/700/1*7fcDdBoJYPYNwSVa8FXGVg.png",
+    title: "Tips for Better Code Reviews",
+    publisher: "Published by Git Connected",
+    link: "https://levelup.gitconnected.com/tips-for-better-code-reviews-2121fc338d3e",
   },
   {
     image: "https://miro.medium.com/max/569/1*rGHEUeykJASszC9HgxsPxA.jpeg",
@@ -34,13 +52,12 @@ export const blogPostsData = [
     link:
       "https://medium.com/better-programming/popular-javascript-array-methods-ca4d24c9243f",
   },
-//   {
-//     image: "",
-//     title: "",
-//     publisher: "Published by Better Programming",
-//     link:
-//       "",
-//   },
+  {
+    image: "https://miro.medium.com/max/700/1*4KStZyVXL0y9mR9OhifSJQ.png",
+    title: "SOLID Principles Explained Simply",
+    publisher: "Published independently",
+    link: "https://arieljakubowski.medium.com/solid-principles-explained-simply-eb9f94c5ea19",
+  },
   {
     image: "https://miro.medium.com/max/676/1*H6AJcRKWwzS_-c-zRaR0bQ.jpeg",
     title: "An Introduction to Java",
