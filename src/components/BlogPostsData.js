@@ -6,7 +6,7 @@ export const blogPostsData = [
     link:
       "https://medium.com/better-programming/breaking-down-object-oriented-ruby-cb0a79e55a70",
   },
-    {
+  {
     image: "https://miro.medium.com/max/700/0*M7CBNp4RBJRaZpJw.jpg",
     title: "An Introduction to SQL",
     publisher: "Published by The Startup",
@@ -19,24 +19,25 @@ export const blogPostsData = [
     link:
       "https://uxdesign.cc/the-universality-of-empathetic-design-bb6b562001c5",
   },
-    {
+  {
     image: "https://miro.medium.com/max/700/1*oMha2rEoc4bbefw8KlDGbw.png",
     title: "An Introduction to PHP",
     publisher: "Published by Git Connected",
-    link: "https://levelup.gitconnected.com/an-introduction-to-php-974101ed42d3",
+    link:
+      "https://levelup.gitconnected.com/an-introduction-to-php-974101ed42d3",
   },
-    {
+  {
     image: "https://miro.medium.com/max/700/1*7fcDdBoJYPYNwSVa8FXGVg.png",
     title: "Tips for Better Code Reviews",
     publisher: "Published by Git Connected",
-    link: "https://levelup.gitconnected.com/tips-for-better-code-reviews-2121fc338d3e",
+    link:
+      "https://levelup.gitconnected.com/tips-for-better-code-reviews-2121fc338d3e",
   },
   {
     image: "https://miro.medium.com/max/569/1*rGHEUeykJASszC9HgxsPxA.jpeg",
     title: "Visual storytelling and UX design",
     publisher: "Published by UX Collective",
-    link:
-      "https://uxdesign.cc/visual-storytelling-and-ux-design-eebd394524d3",
+    link: "https://uxdesign.cc/visual-storytelling-and-ux-design-eebd394524d3",
   },
   {
     image: "https://miro.medium.com/max/1000/1*Fuy7_WQaJKBsGb-MSRu17Q.png",
@@ -56,24 +57,29 @@ export const blogPostsData = [
     image: "https://miro.medium.com/max/700/1*4KStZyVXL0y9mR9OhifSJQ.png",
     title: "SOLID Principles Explained Simply",
     publisher: "Published independently",
-    link: "https://arieljakubowski.medium.com/solid-principles-explained-simply-eb9f94c5ea19",
+    link:
+      "https://arieljakubowski.medium.com/solid-principles-explained-simply-eb9f94c5ea19",
   },
   {
     image: "https://miro.medium.com/max/676/1*H6AJcRKWwzS_-c-zRaR0bQ.jpeg",
     title: "An Introduction to Java",
     publisher: "Published by The Startup",
-    link: "https://medium.com/@arieljakubowski/an-introduction-to-java-ad0c6821e52b",
+    link:
+      "https://medium.com/@arieljakubowski/an-introduction-to-java-ad0c6821e52b",
   },
   {
-    image: "https://cdn.lynda.com/course/504266/504266-636924000532723800-16x9.jpg",
+    image:
+      "https://cdn.lynda.com/course/504266/504266-636924000532723800-16x9.jpg",
     title: "A Quick Guide to CSS",
     publisher: "Published independently",
-    link: "https://medium.com/@arieljakubowski/a-quick-guide-to-css-df5de9f9a178",
+    link:
+      "https://medium.com/@arieljakubowski/a-quick-guide-to-css-df5de9f9a178",
   },
   {
     image: "https://miro.medium.com/max/591/1*HoDhjtqIPFPCZUwrEl_WUA.png",
     title: "Clearing Up the Cloud",
     publisher: "Published independently",
-    link: "https://medium.com/@arieljakubowski/clearing-up-the-cloud-9f8aacc609b5",
+    link:
+      "https://medium.com/@arieljakubowski/clearing-up-the-cloud-9f8aacc609b5",
   },
 ];
