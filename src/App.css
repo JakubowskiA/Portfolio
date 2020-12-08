@@ -186,7 +186,27 @@ border: solid; */
 cursor: pointer;
 }
 
+.project-card{
+  background-color: aliceblue;
+  width: 40vw;
+  height: auto;
+  padding: 2%;
+  margin: 2.5%;
+  margin-top: 1%;
+  border-radius: 2%;
+}
 
+.project-card-image{
+  background-color: aliceblue;
+  width: 40vw;
+  min-height: 18vw;
+  max-height: 22vw;
+}
+
+.project-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+}
 
 .blog-container{
   background-color: #43bdf1;
@@ -207,7 +227,7 @@ cursor: pointer;
 .blog-pic{
   background-color: aliceblue;
   width: 16vw;
-  min-height: 8vw;
+  min-height: 7.5vw;
   max-height: 11vw;
 }
 

@@ -1,4 +1,6 @@
 import React, { Fragment } from 'react';
+import { ProjectCard } from "./ProjectCard.js";
+import { projectsData } from "./ProjectsData.js";
 
 function Projects() {
   return (
@@ -6,6 +8,21 @@ function Projects() {
 
     <div className="project-page" id="projects">
         <h2>Projects</h2>
+        <div className="project-wrapper">
+        {projectsData.map((post) => (
+            <ProjectCard
+              key={projectsData.indexOf(post)}
+              image={post.image}
+              name={post.name}
+              description={post.description}
+              technologiesUsed={post.technologiesUsed}
+              demoLink={post.demoLink}
+              singleCodeLink={post.singleCodeLink}
+              frontendCodeLink={post.frontendCodeLink}
+              backendCodeLink={post.backendCodeLink}
+            />
+          ))}
+          </div>
         <div className="project-img-group">
             <div className="project">
                 <figure>
