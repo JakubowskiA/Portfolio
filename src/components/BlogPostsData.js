@@ -56,7 +56,7 @@ export const blogPostsData = [
   {
     image: "https://miro.medium.com/max/700/1*4KStZyVXL0y9mR9OhifSJQ.png",
     title: "SOLID Principles Explained Simply",
-    publisher: "Published independently",
+    publisher: "Published by Data Driven Investor",
     link:
       "https://arieljakubowski.medium.com/solid-principles-explained-simply-eb9f94c5ea19",
   },

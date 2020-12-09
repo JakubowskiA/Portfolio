@@ -165,7 +165,7 @@ figcaption {
 }
 
 .project-page{
-  background-color:#41bcf046;
+  background-color:#41bbf0ad;
   padding-top: 3%;
   padding-bottom: 2%;
   text-align: center;
@@ -176,7 +176,7 @@ figcaption {
   max-height: 22vw !important;
 }
 
-.button{
+button{
 /* background-color: gainsboro;
 color: #091540; */
 font-size: 12pt;
@@ -184,6 +184,11 @@ font-size: 12pt;
 border-radius: 3%;
 border: solid; */
 cursor: pointer;
+background-color: #43bdf1;
+border-color: #41bbf0ad;
+border-radius: 5%;
+padding: 1%;
+font-size: 11pt;
 }
 
 .project-card{
@@ -196,6 +201,10 @@ cursor: pointer;
   border-radius: 2%;
 }
 
+.project-button{
+  margin: 3%;
+}
+
 .project-card-image{
   background-color: aliceblue;
   width: 40vw;
@@ -206,6 +215,10 @@ cursor: pointer;
 .project-wrapper{
   display: flex;
   flex-wrap: wrap;
+}
+
+#projectName{
+  font-size: 16pt;
 }
 
 .blog-container{

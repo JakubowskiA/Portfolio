@@ -6,7 +6,7 @@ export const BlogPostCard = (props) => {
       <img className="blog-pic" src={props.image} />
       <p>{props.title}</p>
       <p className="publisher">{props.publisher}</p>
-      <a href={props.link}>
+      <a target="_blank" href={props.link}>
         <button>See blog post</button>
       </a>
     </div>
