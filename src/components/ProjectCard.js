@@ -6,19 +6,23 @@ export const ProjectCard = (props) => {
       return (
         <div>
           {props.demoLink && (
-        <a href={props.demoLink}><button className="project-button">See demo</button></a>
-      )}
-        <a href={props.singleCodeLink}>
-          <button className="project-button">See code</button>
-        </a>
+            <a href={props.demoLink}>
+              <button className="project-button">See demo</button>
+            </a>
+          )}
+          <a href={props.singleCodeLink}>
+            <button className="project-button">See code</button>
+          </a>
         </div>
       );
     } else {
       return (
         <div>
           {props.demoLink && (
-        <a href={props.demoLink}><button className="project-button">See demo</button></a>
-      )}
+            <a href={props.demoLink}>
+              <button className="project-button">See demo</button>
+            </a>
+          )}
           <a href={props.frontendCodeLink}>
             <button className="project-button">See frontend code</button>
           </a>
