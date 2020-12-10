@@ -5,8 +5,8 @@ export const projectsData = [
       description: "A guided online journal to help you evaluate and manage stress in a productive and healthy way",
       technologiesUsed: "Javascript, React, Rails, custom CSS, PostgreSQL, Chart.js, and Moment.js",
       demoLink: "http://serene-app.herokuapp.com/",
-      frontendCodeLink: "",
-      backendCodeLink: "",
+      frontendCodeLink: "https://github.com/JakubowskiA/final-project-frontend",
+      backendCodeLink: "https://github.com/JakubowskiA/final-project-backend",
       singleCodeLink: ""
     },
     {
@@ -15,8 +15,8 @@ export const projectsData = [
         description: "Find your next favorite read and keep track of your books with Read Me",
         technologiesUsed: "Javascript, React, Rails, custom CSS, JSON Web Tokens, and Semantic UI",
         demoLink: "http://read-me-books.herokuapp.com",
-        frontendCodeLink: "",
-        backendCodeLink: "",
+        frontendCodeLink: "https://github.com/JakubowskiA/read-me-frontend",
+        backendCodeLink: "https://github.com/JakubowskiA/read-me-backend",
         singleCodeLink: ""
       },
       {
@@ -27,7 +27,7 @@ export const projectsData = [
         demoLink: "http://wordle-app-frontend.herokuapp.com",
         frontendCodeLink: "",
         backendCodeLink: "",
-        singleCodeLink: ""
+        singleCodeLink: "https://github.com/JakubowskiA/WordsApp"
       },
       {
         name: "BEST PAW FORWARD",
@@ -37,7 +37,7 @@ export const projectsData = [
         demoLink: "",
         frontendCodeLink: "",
         backendCodeLink: "",
-        singleCodeLink: ""
+        singleCodeLink: "https://github.com/JakubowskiA/pet_training_school"
       },
     //   {
     //     name: "",
