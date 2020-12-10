@@ -6,9 +6,7 @@ function Experience() {
   return (
     <Fragment>
       <div className="blog-container" id="blog">
-        {/* <div className="main-container"> */}
-        <h2>Experience</h2>
-        {/* <div className="main-container-content"> */}
+        <h2>Professional Experience</h2>
         <div className="blog-content-container">
           {experienceData.map((experience) => (
             <ExperienceCard
@@ -23,8 +21,6 @@ function Experience() {
         <br />
         <br />
       </div>
-      {/* </div> */}
-      {/* </div> */}
     </Fragment>
   );
 }
