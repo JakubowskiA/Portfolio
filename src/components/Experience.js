@@ -15,6 +15,7 @@ function Experience() {
               companyIcon={experience.companyIcon}
               dateRange={experience.dateRange}
               description={experience.description}
+              title={experience.title}
             />
           ))}
         </div>

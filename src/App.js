@@ -3,6 +3,7 @@ import React, { Fragment } from 'react';
 // import { Route, withRouter } from 'react-router-dom';
 import AboutMe from './components/AboutMe';
 import Resume from './components/Resume';
+import Experience from './components/Experience'
 import Projects from './components/Projects';
 import Blog from './components/Blog';
 import Skills from './components/Skills';
@@ -39,6 +40,7 @@ function App() {
 
     </div>
     <AboutMe />
+    <Experience/>
     <Projects />
     {/* <Resume/> */}
     <Blog />
