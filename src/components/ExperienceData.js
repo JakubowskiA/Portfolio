@@ -4,7 +4,7 @@ export const experienceData = [
       title:"Software Engineer",
       companyIcon:"",
       dateRange:"February 2020 - present",
-      description:["Designed and programmed new tool using React and PHP which enables managers to create their own training forms, reducing long term demand on Engineering teams", "Created database schema and technical and UI designs", "Wrote unit tests and participated in QA testing to ensure code passed all the quality benchmarks", "Resolved bugs and improved UI and information handling across multiple codebases"]
+      description:["Designed and programmed new tool using React and PHP, enabling managers to create custom training forms, reducing long term demand on Engineering teams", "Created database schema and technical and UI designs", "Wrote unit tests and participated in QA testing to ensure code passed all the quality benchmarks", "Resolved bugs and improved UI and information handling across multiple codebases"]
     },
     {
       companyName:"Andersen Corporation (now PlyGem)",
