@@ -18,7 +18,7 @@ export const experienceData = [
       title:"Engineering Intern",
       companyIcon:"",
       dateRange:"Summer 2016",
-      description:["Created Product Environmental Profiles", "Documented design changes to products and packaging and updated product CAD models"]
+      description:["Created Product Environmental Profiles", "Documented design changes to products and packaging", "Updated CAD models of products", "Participated in prodct safety testing"]
     },
     {
       companyName:"Cisco",

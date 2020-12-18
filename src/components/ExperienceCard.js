@@ -5,11 +5,13 @@ export const ExperienceCard = (props) => {
   return (
     <div className="experience-card">
         <div className="experience-card-header">
-        <img className="experience-card-icon" src={props.companyIcon} />
+        {/* <img className="experience-card-icon" src={props.companyIcon} /> */}
         <div style={{width: "45%"}}><h4>{props.companyName}</h4></div>
         <div style={{width: "20%"}}><h4>{props.title}</h4></div>
-        <div style={{alignContent: "right"}, {textAlign: "right"}}>
-        <h4>{props.dateRange}</h4>
+        <div id="dateRange" style={{width: "35%"}}>
+          <div className="experience-date-outer">
+          <h4 className="experience-date">{props.dateRange}</h4>
+          </div>
       </div>
         {/* <p>{`${props.companyName}  |  ${props.title}`}</p> */}
         

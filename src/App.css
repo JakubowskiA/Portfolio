@@ -83,6 +83,20 @@
   text-align: left; 
 }
 
+.experience-date-outer{
+  width: 100%;
+  text-align: right; 
+}
+
+.experience-date{
+  width: 100%;
+  text-align: right; 
+}
+
+#dateRange{
+  width: 100%;
+}
+
 .experience-card-header{
   display: flex;
   flex-direction: row;
