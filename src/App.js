@@ -16,7 +16,7 @@ function App() {
   return (
     <Fragment>
       <div className="header"></div>
-      <div className="navbar">
+      <nav className="navbar">
         <div className="nav-name">Ariel Jakubowski</div>
         <div className="nav-item hvr-grow">
           <a href="#about-me">About Me</a>
@@ -36,11 +36,10 @@ function App() {
         <div className="nav-item hvr-grow">
           <a href="#contact">Contact</a>
         </div>
-      </div>
+      </nav>
       <AboutMe />
       <Experience />
       <Projects />
-      {/* <Resume/> */}
       <Blog />
       <Skills />
       <Contact />
