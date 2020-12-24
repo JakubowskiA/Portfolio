@@ -15,8 +15,7 @@ import Contact from "./components/Contact";
 function App() {
   return (
     <Fragment>
-      <div className="header"></div>
-      <nav className="navbar">
+      <nav>
         <div className="nav-name">Ariel Jakubowski</div>
         <div className="nav-item hvr-grow">
           <a href="#about-me">About Me</a>

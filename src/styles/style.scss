@@ -4,10 +4,9 @@
 
 .header {
   font-size: calc(10px + 2vmin);
-  /* color: white; */
 }
 
-.navbar {
+nav {
   display: flex;
   text-align: center;
   position: fixed;
@@ -16,19 +15,17 @@
   color: aliceblue;
   z-index: 1;
   /* color: white; */
-}
-
-.nav-name {
-  font-size: 18pt;
-  margin: 1em;
-  margin-left: 2em;
-}
-
-.nav-item {
-  font-size: 14pt;
-  margin: 1em;
-  margin-left: 2.5em;
-  margin-top: 1.5em;
+  .nav-name {
+    font-size: 18pt;
+    margin: 1em;
+    margin-left: 2em;
+  }
+  div {
+    font-size: 14pt;
+    margin: 1em;
+    margin-left: 2.5em;
+    margin-top: 1.5em;
+  }
 }
 
 .main-container {
@@ -49,7 +46,6 @@
   padding-bottom: 2%;
   text-align: center;
   font-size: 13pt;
-
   /* background-color: #020085;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23020085' cx='50' cy='0' r='50'/%3E%3Cg fill='%23001490' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%2300229a' cx='50' cy='100' r='50'/%3E%3Cg fill='%23002ea3' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%230039ac' cx='50' cy='200' r='50'/%3E%3Cg fill='%230043b5' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%23004ebd' cx='50' cy='300' r='50'/%3E%3Cg fill='%230057c4' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%230061cb' cx='50' cy='400' r='50'/%3E%3Cg fill='%23006bd1' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%230075d7' cx='50' cy='500' r='50'/%3E%3Cg fill='%23007edc' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%230088e1' cx='50' cy='600' r='50'/%3E%3Cg fill='%230091e6' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%23009bea' cx='50' cy='700' r='50'/%3E%3Cg fill='%2300a4ee' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%2300aef1' cx='50' cy='800' r='50'/%3E%3Cg fill='%2300b7f5' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%2300c0f8' cx='50' cy='900' r='50'/%3E%3Cg fill='%2300cafc' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%232ed3ff' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E"); */
   background-attachment: fixed;
@@ -82,15 +78,11 @@
   text-align: left;
 }
 
-.experience-date-outer {
-  width: 100%;
-  text-align: right;
-}
-
 .experience-date {
   width: 100%;
   text-align: right;
 }
+
 
 #dateRange {
   width: 100%;

@@ -4,10 +4,9 @@
 
 .header {
   font-size: calc(10px + 2vmin);
-  /* color: white; */
 }
 
-.navbar {
+nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -20,13 +19,13 @@
   /* color: white; */
 }
 
-.nav-name {
+nav .nav-name {
   font-size: 18pt;
   margin: 1em;
   margin-left: 2em;
 }
 
-.nav-item {
+nav div {
   font-size: 14pt;
   margin: 1em;
   margin-left: 2.5em;
@@ -82,11 +81,6 @@
   margin-left: 12.5%;
   border-radius: 0.5%;
   text-align: left;
-}
-
-.experience-date-outer {
-  width: 100%;
-  text-align: right;
 }
 
 .experience-date {
