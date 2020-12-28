@@ -44,6 +44,7 @@ export const experienceData = [
     dateRange: "Winter 2016",
     description: [
       "Shadowing program in Silicon Valley about innovation, start-ups, and tech giants like Google and Cisco",
+      "Explored how companies balance innovation and expansion"
     ],
   },
   {

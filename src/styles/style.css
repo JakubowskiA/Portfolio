@@ -102,14 +102,6 @@ nav div {
           flex-direction: row;
 }
 
-.experience-card-icon {
-  width: 4%;
-  height: 4%;
-  margin-left: 1%;
-  margin-right: 1%;
-  background-color: orchid;
-}
-
 .project-container {
   background-color: azure;
   width: 70%;
