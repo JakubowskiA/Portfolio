@@ -68,28 +68,30 @@ nav {
   line-height: 1.5em;
 }
 
-.experience-card {
-  background-color: azure;
-  width: 70%;
-  padding: 2%;
-  margin: 2%;
-  margin-left: 12.5%;
-  border-radius: 0.5%;
-  text-align: left;
-}
-
-.experience-date {
-  width: 100%;
-  text-align: right;
-}
-
-#dateRange {
-  width: 100%;
-}
-
-.experience-card-header {
-  display: flex;
-  flex-direction: row;
+#experience{
+  .experience-card {
+    background-color: azure;
+    width: 70%;
+    padding: 2%;
+    margin: 2%;
+    margin-left: 12.5%;
+    border-radius: 0.5%;
+    text-align: left;
+  }
+  
+  .experience-date {
+    width: 100%;
+    text-align: right;
+  }
+  
+  #dateRange {
+    width: 100%;
+  }
+  
+  .experience-card-header {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 .project-container {
@@ -105,11 +107,10 @@ nav {
 .project {
   margin: 2%;
   margin-bottom: 1%;
-}
-
-.project :hover {
-  background-color: #091540f0;
-  color: aliceblue;
+  &:hover {
+    background-color: #091540f0;
+    color: aliceblue;
+  }
 }
 
 figcaption {
@@ -189,11 +190,15 @@ figcaption {
   padding-top: 3%;
   padding-bottom: 2%;
   text-align: center;
-}
-
-.project-img {
-  width: 44vw;
-  max-height: 22vw !important;
+  img {
+    background-color: aliceblue;
+    width: 40vw;
+    min-height: 18vw;
+    max-height: 22vw;
+  }
+  button{
+      margin: 2%;
+  }
 }
 
 button {
@@ -221,24 +226,9 @@ button {
   border-radius: 2%;
 }
 
-.project-button {
-  margin: 2%;
-}
-
-.project-card-image {
-  background-color: aliceblue;
-  width: 40vw;
-  min-height: 18vw;
-  max-height: 22vw;
-}
-
 .project-wrapper {
   display: flex;
   flex-wrap: wrap;
-}
-
-#projectName {
-  font-size: 16pt;
 }
 
 .blog-container {
@@ -348,24 +338,6 @@ button {
 .contact-div:hover div.hvr-show {
   display: block;
 }
-/* .linkedin:hover::after{
-    content: LinkedIn
-  }
-  
-  .contact:hover >.contact-icon{
-    display: none;
-  }
-  .contact + div {
-    display: none;
-  } */
-
-/* a:hover + div {
-    display: block;
-  } */
-
-/* .hvr-show{
-  
-  } */
 
 .hvr-hide {
   display: none;
@@ -394,12 +366,10 @@ button {
   -moz-osx-font-smoothing: grayscale;
   transition-duration: 0.3s;
   transition-property: transform;
-}
-
-.hvr-grow:hover,
-  /* .hvr-grow:focus, */
+  &:hover,
   .hvr-grow:active {
   transform: scale(1.1);
+  }
 }
 
 li {
@@ -453,13 +423,11 @@ button {
   .nav-name {
     font-size: 9pt;
     margin: 1em;
-    /* margin-left: 2em; */
   }
 
   .nav-item {
     font-size: 8pt;
     margin: 0.5em;
-    /* margin-left: 2em; */
     margin-top: 1.25em;
   }
 
