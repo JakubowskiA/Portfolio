@@ -206,22 +206,19 @@ button {
   margin-left: 15%;
   background-color: azure;
   align-content: center;
-}
-
-.skill-icon-group {
-  display: flex;
-  flex-direction: row;
-  align-content: center;
-}
-
-.skill-icon {
-  width: 4vw;
-  height: 4vw;
-}
-
-.skill {
-  text-align: center;
-  margin-left: 10%;
+  img {
+    width: 4vw;
+    height: 4vw;
+  }
+  .skill-icon-group {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+  }
+  .skill {
+    text-align: center;
+    margin-left: 10%;
+  }
 }
 
 .contact-section {
@@ -346,10 +343,6 @@ p {
 a {
   color: aliceblue;
   text-decoration: none;
-}
-
-button {
-  cursor: pointer;
 }
 
 @media (max-width: 700px) {

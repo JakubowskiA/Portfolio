@@ -9,7 +9,7 @@ export const experienceData = [
       "Created database schema and technical and UI designs",
       "Wrote unit tests and participated in QA testing to ensure code passed all the quality benchmarks",
       "Resolved bugs and improved UI and information handling across multiple codebases",
-      "Gave detailed reviews for Javascript, PHP, and SQL code",
+      "Gave detailed reviews and actionable feedback for Javascript, PHP, and SQL code",
     ],
   },
   {
