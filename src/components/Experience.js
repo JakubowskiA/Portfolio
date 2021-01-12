@@ -5,7 +5,7 @@ import { experienceData } from "./ExperienceData.js";
 function Experience() {
   return (
     <Fragment>
-      <div className="blog-container" id="experience">
+      <div className="experience-section-container" id="experience">
         <h2>Professional Experience</h2>
         <div className="blog-content-container">
           {experienceData.map((experience) => (

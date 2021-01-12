@@ -29,7 +29,7 @@ nav {
 }
 
 .main-container {
-  height: 70vh;
+  height: 60vh;
   margin: 0%;
   width: 100% !important;
 }
@@ -41,7 +41,7 @@ nav {
 }
 
 .about-me-container {
-  background-color: rgb(67, 189, 241);
+  // background-color: rgb(67, 189, 241);
   padding-top: 5%;
   padding-bottom: 2%;
   text-align: center;
@@ -50,7 +50,7 @@ nav {
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23020085' cx='50' cy='0' r='50'/%3E%3Cg fill='%23001490' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%2300229a' cx='50' cy='100' r='50'/%3E%3Cg fill='%23002ea3' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%230039ac' cx='50' cy='200' r='50'/%3E%3Cg fill='%230043b5' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%23004ebd' cx='50' cy='300' r='50'/%3E%3Cg fill='%230057c4' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%230061cb' cx='50' cy='400' r='50'/%3E%3Cg fill='%23006bd1' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%230075d7' cx='50' cy='500' r='50'/%3E%3Cg fill='%23007edc' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%230088e1' cx='50' cy='600' r='50'/%3E%3Cg fill='%230091e6' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%23009bea' cx='50' cy='700' r='50'/%3E%3Cg fill='%2300a4ee' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%2300aef1' cx='50' cy='800' r='50'/%3E%3Cg fill='%2300b7f5' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%2300c0f8' cx='50' cy='900' r='50'/%3E%3Cg fill='%2300cafc' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%232ed3ff' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E"); */
   background-attachment: fixed;
   background-size: contain;
-  background-color: #295ad6;
+  background-color: #1ca0ff;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23295ad6' cx='50' cy='0' r='50'/%3E%3Cg fill='%231e61da' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%230e68de' cx='50' cy='100' r='50'/%3E%3Cg fill='%23006fe2' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%230076e6' cx='50' cy='200' r='50'/%3E%3Cg fill='%23007ce9' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%230083eb' cx='50' cy='300' r='50'/%3E%3Cg fill='%230089ee' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%230090f0' cx='50' cy='400' r='50'/%3E%3Cg fill='%230096f2' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%23009cf4' cx='50' cy='500' r='50'/%3E%3Cg fill='%2300a2f6' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%2316a8f7' cx='50' cy='600' r='50'/%3E%3Cg fill='%2327aef8' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%2334b3f9' cx='50' cy='700' r='50'/%3E%3Cg fill='%2341b9fa' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%234cbffb' cx='50' cy='800' r='50'/%3E%3Cg fill='%2358c5fc' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%2363cafd' cx='50' cy='900' r='50'/%3E%3Cg fill='%236dd0fe' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%2378d5ff' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
 
   /* background-color: #00b7ff;
@@ -68,7 +68,7 @@ nav {
   line-height: 1.5em;
 }
 
-#experience{
+#experience {
   .experience-card {
     background-color: azure;
     width: 70%;
@@ -78,16 +78,16 @@ nav {
     border-radius: 0.5%;
     text-align: left;
   }
-  
+
   .experience-date {
     width: 100%;
     text-align: right;
   }
-  
+
   #dateRange {
     width: 100%;
   }
-  
+
   .experience-card-header {
     display: flex;
     flex-direction: row;
@@ -129,8 +129,8 @@ nav {
     min-height: 18vw;
     max-height: 22vw;
   }
-  button{
-      margin: 2%;
+  button {
+    margin: 2%;
   }
 }
 
@@ -196,6 +196,15 @@ button {
 .experience-container {
   border: 1px;
   border-radius: 3%;
+}
+
+.experience-section-container {
+  padding-top: 3%;
+  text-align: center;
+  background-color: #1ca0ff;
+  // background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%2335aef9' points='800 100 0 200 0 800 1600 800 1600 200'/%3E%3Cpolygon fill='%234ebaf5' points='800 200 0 400 0 800 1600 800 1600 400'/%3E%3Cpolygon fill='%2365c5f1' points='800 300 0 600 0 800 1600 800 1600 600'/%3E%3Cpolygon fill='%237bceef' points='1600 800 800 400 0 800'/%3E%3Cpolygon fill='%2390d6ed' points='1280 800 800 500 320 800'/%3E%3Cpolygon fill='%23a4dded' points='533.3 800 1066.7 800 800 600'/%3E%3Cpolygon fill='%23b7e4ee' points='684.1 800 914.3 800 800 700'/%3E%3C/g%3E%3C/svg%3E");
+  // background-attachment: fixed;
+  // background-size: cover;
 }
 
 .skill-container {
@@ -298,7 +307,7 @@ button {
   transition-property: transform;
   &:hover,
   .hvr-grow:active {
-  transform: scale(1.1);
+    transform: scale(1.1);
   }
 }
 
