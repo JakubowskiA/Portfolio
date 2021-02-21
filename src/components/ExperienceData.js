@@ -13,7 +13,7 @@ export const experienceData = [
     ],
   },
   {
-    companyName: "Andersen Corporation (now PlyGem)",
+    companyName: "Andersen Corporation",
     title: "Project Engineer",
     companyIcon: "",
     dateRange: "October 2017 - February 2019",

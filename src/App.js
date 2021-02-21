@@ -36,11 +36,15 @@ function App() {
           <a href="#contact">Contact</a>
         </div>
       </nav>
+      <div className="portfolio-background">
+      <div className="portfolio-background-inner">
       <AboutMe />
       <Experience />
       <Projects />
       <Blog />
       <Skills />
+      </div>
+      </div>
       <Contact />
     </Fragment>
   );

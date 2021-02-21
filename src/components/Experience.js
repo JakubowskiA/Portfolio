@@ -7,7 +7,7 @@ function Experience() {
     <Fragment>
       <div className="experience-section-container" id="experience">
         <h2>Professional Experience</h2>
-        <div className="blog-content-container">
+        <div className="experience-content-container">
           {experienceData.map((experience) => (
             <ExperienceCard
               key={experienceData.indexOf(experience)}
