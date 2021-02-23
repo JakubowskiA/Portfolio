@@ -4,7 +4,7 @@ function AboutMe() {
   return (
     <Fragment>
       <div className="about-me-container" id="about-me">
-        <div className="main-container">
+        
           <h2>About Me</h2>
           <div className="main-container-content">
             <div className="about-me-content-container">
@@ -52,7 +52,7 @@ function AboutMe() {
             </div>
           </div>
         </div>
-      </div>
+      
     </Fragment>
   );
 }
