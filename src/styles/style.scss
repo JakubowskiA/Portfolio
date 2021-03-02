@@ -1,4 +1,5 @@
 $background:  #080d2f;
+$cardBackgroud: white;
 
 
 .centered {
@@ -38,7 +39,11 @@ nav {
   
 background-color: $background;
 background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='88' height='24' viewBox='0 0 88 24'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='autumn' fill='%2393f7f2' fill-opacity='0.88'%3E%3Cpath d='M10 0l30 15 2 1V2.18A10 10 0 0 0 41.76 0H39.7a8 8 0 0 1 .3 2.18v10.58L14.47 0H10zm31.76 24a10 10 0 0 0-5.29-6.76L4 1 2 0v13.82a10 10 0 0 0 5.53 8.94L10 24h4.47l-6.05-3.02A8 8 0 0 1 4 13.82V3.24l31.58 15.78A8 8 0 0 1 39.7 24h2.06zM78 24l2.47-1.24A10 10 0 0 0 86 13.82V0l-2 1-32.47 16.24A10 10 0 0 0 46.24 24h2.06a8 8 0 0 1 4.12-4.98L84 3.24v10.58a8 8 0 0 1-4.42 7.16L73.53 24H78zm0-24L48 15l-2 1V2.18A10 10 0 0 1 46.24 0h2.06a8 8 0 0 0-.3 2.18v10.58L73.53 0H78z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-  padding: 9%;
+  
+background-color: #080d2f;
+background-image: url("data:image/svg+xml,%3Csvg width='80' height='88' viewBox='0 0 80 88' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M22 21.91V26h-2c-9.94 0-18 8.06-18 18 0 9.943 8.058 18 18 18h2v4.09c8.012.722 14.785 5.738 18 12.73 3.212-6.99 9.983-12.008 18-12.73V62h2c9.94 0 18-8.06 18-18 0-9.943-8.058-18-18-18h-2v-4.09c-8.012-.722-14.785-5.738-18-12.73-3.212 6.99-9.983 12.008-18 12.73zM54 58v4.696c-5.574 1.316-10.455 4.428-14 8.69-3.545-4.262-8.426-7.374-14-8.69V58h-5.993C12.27 58 6 51.734 6 44c0-7.732 6.275-14 14.007-14H26v-4.696c5.574-1.316 10.455-4.428 14-8.69 3.545 4.262 8.426 7.374 14 8.69V30h5.993C67.73 30 74 36.266 74 44c0 7.732-6.275 14-14.007 14H54zM42 88c0-9.94 8.06-18 18-18h2v-4.09c8.016-.722 14.787-5.738 18-12.73v7.434c-3.545 4.262-8.426 7.374-14 8.69V74h-5.993C52.275 74 46 80.268 46 88h-4zm-4 0c0-9.943-8.058-18-18-18h-2v-4.09c-8.012-.722-14.785-5.738-18-12.73v7.434c3.545 4.262 8.426 7.374 14 8.69V74h5.993C27.73 74 34 80.266 34 88h4zm4-88c0 9.943 8.058 18 18 18h2v4.09c8.012.722 14.785 5.738 18 12.73v-7.434c-3.545-4.262-8.426-7.374-14-8.69V14h-5.993C52.27 14 46 7.734 46 0h-4zM0 34.82c3.213-6.992 9.984-12.008 18-12.73V18h2c9.94 0 18-8.06 18-18h-4c0 7.732-6.275 14-14.007 14H14v4.696c-5.574 1.316-10.455 4.428-14 8.69v7.433z' fill='%239ef3fb' fill-opacity='0.76' fill-rule='evenodd'/%3E%3C/svg%3E");
+
+padding: 9%;
 }
 
 .portfolio-background-inner {
@@ -52,8 +57,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 
 .main-container-content {
-  margin: 5%;
-  margin-top: 3%;
+  margin: 3% 5% 0% 5%;
   text-align: left;
 }
 
@@ -89,13 +93,14 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
 #experience {
   .experience-card {
-    background-color: azure;
+    background-color: $cardBackgroud;
     width: 80%;
     padding: 4%;
     margin: 2%;
     margin-left: 3%;
     border-radius: 0.5%;
     text-align: left;
+    box-shadow: 2px 6px 16px 2px grey;
   }
 
   .experience-date {
@@ -114,7 +119,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 
 .project-container {
-  background-color: azure;
+  background-color: $cardBackgroud;
   width: 70%;
   padding: 0%;
   margin: 0%;
@@ -140,7 +145,6 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 .project-page {
   // background-color: #41bbf0ad;
   padding-top: 3%;
-  padding-bottom: 2%;
   text-align: center;
   img {
     background-color: aliceblue;
@@ -169,13 +173,14 @@ button {
 }
 
 .project-card {
-  background-color: aliceblue;
+  background-color: $cardBackgroud;
   width: 34vw;
   height: auto;
   padding: 2%;
   margin: 2%;
   margin-top: 1%;
   border-radius: 2%;
+  box-shadow: 2px 6px 16px 2px grey;
 }
 
 .project-card-image {
@@ -205,6 +210,7 @@ button {
   margin: 1.5%;
   margin-top: 1%;
   border-radius: 2%;
+  box-shadow: 2px 6px 5px 2px grey;
 }
 
 .blog-pic {
@@ -247,7 +253,7 @@ button {
   border-radius: 1%;
   margin: 3%;
   margin-left: 15%;
-  background-color: azure;
+  background-color: $cardBackgroud;
   align-content: center;
   img {
     width: 4vw;
