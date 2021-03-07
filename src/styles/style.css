@@ -59,7 +59,6 @@ nav div {
 
 .about-me-container {
   padding-top: 5%;
-  padding-bottom: 2%;
   text-align: center;
   font-size: 13pt;
   /* background-color: #020085;
@@ -417,13 +416,13 @@ a {
   text-decoration: none;
 }
 
-@media (max-width: 700px) {
-  .nav-name {
-    font-size: 9pt;
+@media all and (min-width: 100px) and (max-width: 700px) {
+  body .nav-name {
+    font-size: 8.5pt;
     margin: 1em;
   }
   .nav-item {
-    font-size: 8pt;
+    font-size: 7.5pt;
     margin: 0.5em;
     margin-top: 1.25em;
   }
@@ -475,7 +474,16 @@ a {
     font-size: 9pt;
   }
   p {
-    font-size: 7pt;
+    font-size: 8pt;
+  }
+  li {
+    font-size: 8pt;
+  }
+  .skill-container {
+    width: 75%;
+    border-radius: 2%;
+    margin: 3%;
+    margin-left: 12.5%;
   }
   button {
     cursor: pointer;
