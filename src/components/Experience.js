@@ -19,8 +19,7 @@ function Experience() {
             />
           ))}
         </div>
-        <br />
-        <br />
+  
       </div>
     </Fragment>
   );

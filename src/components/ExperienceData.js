@@ -50,7 +50,7 @@ export const experienceData = [
     ],
   },
   {
-    companyName: "Janssen Pharmaceuticals, of Johnson & Johnson",
+    companyName: "Janssen Pharmaceuticals of Johnson & Johnson",
     title: "Intern",
     companyIcon: "",
     dateRange: "Summer 2014, Summer 2015",

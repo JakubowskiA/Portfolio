@@ -114,8 +114,7 @@ function Projects() {
             </figure>
           </div>
         </div> */}
-        <br />
-        <br />
+        
       </div>
     </Fragment>
   );
