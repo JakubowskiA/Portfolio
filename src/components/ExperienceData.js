@@ -5,11 +5,13 @@ export const experienceData = [
     companyIcon: "",
     dateRange: "February 2020 - present",
     description: [
-      "Designed and programmed new tool using React and PHP, enabling managers to create custom training forms, reducing long term demand on Engineering teams",
+      "Designed and programmed new tool using React, PHP, and SQL enabling managers to create custom training forms, eliminating future demand on multiple teams",
+      "Increased review process efficiency by 500% and decreased process duration by 13% for 8 teams",
+      "Added features, resolved bugs, and improved UI and information handling in multiple codebases for customer service tools, reducing average handle times by 12% and enabling agents to help 8% more customers per hour",
       "Created database schema and technical and UI designs",
       "Wrote unit tests and participated in QA testing to ensure code passed all the quality benchmarks",
       "Resolved bugs and improved UI and information handling across multiple codebases",
-      "Gave detailed reviews and actionable feedback for Javascript, PHP, and SQL code",
+      "Wrote detailed code reviews and actionable feedback for Javascript, PHP, and SQL code",
     ],
   },
   {
