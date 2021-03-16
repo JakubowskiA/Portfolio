@@ -6,9 +6,8 @@ function Blog() {
   return (
     <Fragment>
       <div className="blog-container" id="blog">
-        {/* <div className="main-container"> */}
         <h2>Blog</h2>
-        {/* <div className="main-container-content"> */}
+
         <div className="blog-content-container">
           {blogPostsData.map((post) => (
             <BlogPostCard
@@ -20,10 +19,7 @@ function Blog() {
             />
           ))}
         </div>
-        
       </div>
-      {/* </div> */}
-      {/* </div> */}
     </Fragment>
   );
 }

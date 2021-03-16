@@ -76,10 +76,10 @@ export const blogPostsData = [
       "https://medium.com/@arieljakubowski/a-quick-guide-to-css-df5de9f9a178",
   },
   {
-    image: "https://miro.medium.com/max/591/1*HoDhjtqIPFPCZUwrEl_WUA.png",
-    title: "Clearing Up the Cloud",
-    publisher: "Published independently",
+    image: "https://miro.medium.com/max/700/0*qNPyJ3924-LIYfzU",
+    title: "The DOM and Vanilla JS",
+    publisher: "Published by Geek Culture",
     link:
-      "https://medium.com/@arieljakubowski/clearing-up-the-cloud-9f8aacc609b5",
+      "https://medium.com/geekculture/the-dom-and-vanilla-js-8e0ab508df99",
   },
 ];
