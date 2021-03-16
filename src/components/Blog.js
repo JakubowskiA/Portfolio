@@ -20,8 +20,7 @@ function Blog() {
             />
           ))}
         </div>
-        <br />
-        <br />
+        
       </div>
       {/* </div> */}
       {/* </div> */}

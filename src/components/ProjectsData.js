@@ -15,7 +15,7 @@ export const projectsData = [
     name: "READ ME",
     image: "projectImgs/readme.png",
     description:
-      "Find your next favorite read and keep track of your books with Read Me",
+      "Find your next favorite book and keep track of what you have read with Read Me",
     technologiesUsed:
       "Javascript, React, Rails, custom CSS, JSON Web Tokens, and Semantic UI",
     demoLink: "http://read-me-books.herokuapp.com",

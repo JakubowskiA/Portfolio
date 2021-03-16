@@ -83,6 +83,10 @@ padding: 9%;
   display: flex;
 }
 
+.about-me-title{
+  text-align: center;
+}
+
 .about-me-content {
   width: 45%;
   margin: 3%;
@@ -91,19 +95,25 @@ padding: 9%;
   background-color: white;
   padding: 2%;
   border-radius: 1%;
-  box-shadow: 2px 6px 10px 2px grey;
+  box-shadow: 2px 6px 10px 2px #8080809e;
+}
+
+.about-me-pic {
+  width: 30%;
+  height: 100%;
+  margin: auto;
 }
 
 #experience {
   .experience-card {
     background-color: $cardBackgroud;
     width: 80%;
-    padding: 4%;
+    padding: 3%;
     margin: 2%;
     margin-left: 3%;
     border-radius: 0.5%;
     text-align: left;
-    box-shadow: 2px 6px 16px 2px grey;
+    box-shadow: 2px 6px 16px 2px #8080809e;
   }
 
   .experience-date {
@@ -151,7 +161,7 @@ padding: 9%;
   text-align: center;
   img {
     background-color: aliceblue;
-    width: 34vw;
+    width: 32vw;
     min-height: 16vw;
     max-height: 20vw;
   }
@@ -177,18 +187,18 @@ button {
 
 .project-card {
   background-color: $cardBackgroud;
-  width: 34vw;
+  width: 32vw;
   height: auto;
   padding: 2%;
   margin: 2%;
   margin-top: 1%;
   border-radius: 2%;
-  box-shadow: 2px 6px 16px 2px grey;
+  box-shadow: 2px 6px 16px 2px #8080809e;
 }
 
 .project-card-image {
   background-color: aliceblue;
-  width: 35vw;
+  width: 32vw;
   min-height: 18vw;
   max-height: 22vw;
 }
@@ -213,7 +223,7 @@ button {
   margin: 1.5%;
   margin-top: 1%;
   border-radius: 2%;
-  box-shadow: 2px 6px 5px 2px grey;
+  box-shadow: 2px 6px 5px 2px #8080809e;
 }
 
 .blog-pic {
@@ -258,6 +268,7 @@ button {
   margin-left: 15%;
   background-color: $cardBackgroud;
   align-content: center;
+  box-shadow: 2px 6px 10px 2px #8080809e;
   img {
     width: 4vw;
     height: 4vw;
@@ -357,6 +368,7 @@ button {
 li {
   text-align: left;
   line-height: 1.5em;
+  margin-bottom: .5em;
 }
 
 h2 {
@@ -376,7 +388,7 @@ h3 {
 }
 
 h4 {
-  font-size: 16pt;
+  font-size: 14pt;
   margin: 0em;
   font-family: "Questrial", sans-serif;
   font-family: "Poppins", sans-serif;
@@ -409,6 +421,25 @@ a {
     margin: 0.5em;
     margin-top: 1.25em;
   }
+
+  .about-me-content-container{
+display: flex;
+flex-direction: column;
+  }
+
+  .about-me-pic{
+width: 50%;
+  }
+
+  .about-me-content {
+    width: 90%;
+    margin: 3%;
+    line-height: 1.5em;
+    background-color: white;
+    padding: 2%;
+    border-radius: 1%;
+    box-shadow: 2px 6px 10px 2px #8080809e;
+}
 
   .blog {
     // background-color: aliceblue;
@@ -473,6 +504,7 @@ a {
 
   li {
     font-size: 7pt;
+    margin-bottom: 1em;
   }
 
   .skill-container {
