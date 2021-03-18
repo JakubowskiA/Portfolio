@@ -23,9 +23,10 @@ export const ExperienceCard = (props) => {
     } else {
       return (
         <>
-          
           <div>
-            <h4>{props.title}, {props.companyName}</h4>
+            <h4>
+              {props.title}, {props.companyName}
+            </h4>
           </div>
           <div>
             <h4>{props.dateRange}</h4>

@@ -48,9 +48,9 @@ function Skills() {
             <p className="p-skill">PHP</p>
           </div>
           <div className="skill hvr-grow">
-              <img className="skill-icon" src="icons/graphql.png" />
-              <p className="p-skill">GraphQL</p>
-            </div>
+            <img className="skill-icon" src="icons/graphql.png" />
+            <p className="p-skill">GraphQL</p>
+          </div>
           <div className="skill hvr-grow">
             <img className="skill-icon" src="icons/java.png" />
             <p className="p-skill">Java</p>
@@ -63,7 +63,7 @@ function Skills() {
           <h3> HTML and CSS</h3>
           <hr />
           <div className="skill-icon-group">
-          <div className="skill hvr-grow">
+            <div className="skill hvr-grow">
               <img className="skill-icon" src="icons/sass.png" />
               <p className="p-skill">Sass</p>
             </div>
