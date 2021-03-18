@@ -14,19 +14,20 @@ function AboutMe() {
                 <div className="about-me-content">
                   <h4 className="about-me-title">Who I am</h4>
                   <p>
-                    I love to create and to solve problems. This is what led me to earn
-                    a degree in Mechanical Engineering and shift to Software
-                    Engineering. 
-                    </p><p>
-                    Mechanical Engineering sparked my love of
-                    empathetic design. Software Engineering refined it. I am
-                    fascinated by the human experience of technology and
-                    passionate about creating better experiences for people.
+                    I love to create and to solve problems. This is what led me
+                    to earn a degree in Mechanical Engineering and shift to
+                    Software Engineering.
                   </p>
                   <p>
-                    I am a curious person and plan to never lose that spark. This spark
-                    helps me ensure I fully understand the problems I am solving and
-                    has led me to never stop learning.
+                    Mechanical Engineering sparked my love of empathetic design.
+                    Software Engineering refined it. I am fascinated by the
+                    human experience of technology and passionate about creating
+                    better experiences for people.
+                  </p>
+                  <p>
+                    I am a curious person and plan to never lose that spark.
+                    This spark helps me ensure I fully understand the problems I
+                    am solving and has led me to never stop learning.
                   </p>
                 </div>
                 <img src="me.jpg" className="about-me-pic" />
@@ -53,19 +54,20 @@ function AboutMe() {
                 <div className="about-me-content">
                   <h4 className="about-me-title">Who I am</h4>
                   <p>
-                    I love to create and to solve problems. This is what led me to earn
-                    a degree in Mechanical Engineering and shift to Software
-                    Engineering. 
-                    </p><p>
-                    Mechanical Engineering sparked my love of
-                    empathetic design. Software Engineering refined it. I am
-                    fascinated by the human experience of technology and
-                    passionate about creating better experiences for people.
+                    I love to create and to solve problems. This is what led me
+                    to earn a degree in Mechanical Engineering and shift to
+                    Software Engineering.
                   </p>
                   <p>
-                    I am a curious person and plan to never lose that spark. This spark
-                    helps me ensure I fully understand the problems I am solving and
-                    has led me to never stop learning.
+                    Mechanical Engineering sparked my love of empathetic design.
+                    Software Engineering refined it. I am fascinated by the
+                    human experience of technology and passionate about creating
+                    better experiences for people.
+                  </p>
+                  <p>
+                    I am a curious person and plan to never lose that spark.
+                    This spark helps me ensure I fully understand the problems I
+                    am solving and has led me to never stop learning.
                   </p>
                 </div>
 

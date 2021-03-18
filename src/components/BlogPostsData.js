@@ -79,7 +79,6 @@ export const blogPostsData = [
     image: "https://miro.medium.com/max/700/0*qNPyJ3924-LIYfzU",
     title: "The DOM and Vanilla JS",
     publisher: "Published by Geek Culture",
-    link:
-      "https://medium.com/geekculture/the-dom-and-vanilla-js-8e0ab508df99",
+    link: "https://medium.com/geekculture/the-dom-and-vanilla-js-8e0ab508df99",
   },
 ];
